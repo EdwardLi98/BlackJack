@@ -9,14 +9,13 @@
 namespace blackJack {
 class Person {
     public:
-        Person() : name_{"default"}, hand_ (std::make_unique<std::vector<Card>>()){};
-        Person(std::string name) : name_{name}, hand_ (std::make_unique<std::vector<Card>>()) {};
+        Person(std::string name) : name_{name}, hand_ (std::make_shared<std::vector<Card>>()) {};
         std::string getName() {return name_;}
-        std::vector<Card>* getHand() {return hand_.get();}
+        std::shared_ptr<std::vector<Card>> getHand() {return hand_;}
         void showHand();
     private:
         std::string name_; 
-        std::unique_ptr<std::vector<Card>> hand_;
+        std::shared_ptr<std::vector<Card>> hand_;
 };
 }
 

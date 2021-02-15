@@ -4,18 +4,21 @@
 #include <vector>
 #include "person.hpp"
 #include "card.hpp"
+#include "dealer.hpp"
 
 namespace blackJack {
 
 class Player : public Person {
     public:
         using Person::Person;
-        void hit();
-        void stay();
-        void doubleBet();
-        void split();
+        void hit(Dealer &dealer); //TODO
+        void stay(); //TODO
+        void doubleBet(); //TODO
+        void split(); //TODO
+        bool getPlayingStatus() { return playingStatus_; };
     private:
-        int totalMoney; 
+        //int totalMoney; 
+        bool playingStatus_ = true;
 };
 }
 

@@ -16,7 +16,7 @@ class Dealer : public Person {
         using Person::Person;
         void deal(Person);
         void generateDeck();
-        void addCardToDeck();
+        void addCardToDeck(); //TODO
         void shuffleDeck(); 
         void showDeck(); // For debug purposes
 
