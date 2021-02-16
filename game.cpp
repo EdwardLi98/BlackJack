@@ -27,11 +27,13 @@ void blackJack::Game::startGame() {
     while (activePlayers() > 0) {
         for (auto player: players_) {
             if (player.getPlayingStatus() == true) {
+                std::cout << player.getName() << " is still active." << std::endl;
                 processTurn(player);
                 player.showHand();
             }
         }
     }
+    std::cout << "End game" << std::endl;
 }
 
 int blackJack::Game::activePlayers() {
@@ -53,18 +55,16 @@ int blackJack::Game::checkHand(Person person) {
     return sum;
 }
 
-void blackJack::Game::processTurn(blackJack::Player player) {
+void blackJack::Game::processTurn(Player& player) {
     std::string input;
     std::cout << "What would " << player.getName() << " like to do?" << std::endl;
     std::cin >> input;
-    // TODO
-    //auto commandIter = commands_.find(input);
-    //if (commandIter != commands_.end()) {
-        //std::any_cast <int (*) (int)> (commandIter->second) (5);
-    //}
-    //else {
-        //std::cout << "Actions consist of [hit, hold]" << std::endl;
-    //}
+    try {
+        (this->*commands_.at(input)) (player);
+    }
+    catch (std::out_of_range) {
+        std::cout << "Valid commands consist of [hit, hold]" << std::endl;
+    }
 }
 
 void blackJack::Game::addPlayer(std::string name) {
@@ -80,7 +80,12 @@ void blackJack::Game::showPlayers() {
     }
 }
 
-void blackJack::Game::hit() {
-    //dealer_.deal(player);
-    std::cout << "Hits" << std::endl;
+void blackJack::Game::hit(Player& player) {
+    std::cout << player.getName() << " hits" << std::endl;
+    dealer_.deal(player);
+}
+
+void blackJack::Game::hold(Player& player) {
+    std::cout << player.getName() << " holds" << std::endl;
+    player.setPlayingStatus(false);
 }

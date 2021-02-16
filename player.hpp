@@ -16,6 +16,7 @@ class Player : public Person {
         void doubleBet(); //TODO
         void split(); //TODO
         bool getPlayingStatus() { return playingStatus_; };
+        void setPlayingStatus(bool status) { playingStatus_ = status; };
     private:
         //int totalMoney; 
         bool playingStatus_ = true;

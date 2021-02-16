@@ -11,23 +11,24 @@ namespace blackJack {
 
 class Game {
     public:
-        Game(Dealer dealer) : dealer_{dealer} {
-            commands_["hit"] = hit;
-        };
+        Game(Dealer dealer) : dealer_{dealer} {};
         void initialiseGame(); //Generate deck and add players
         void startGame(); //Plays game
-        void processTurn(Player player); //TODO
+        void processTurn(Player& player); //TODO
         int checkHand(Person person); //Return the total value of a players hand
         int activePlayers();
         void addPlayer(std::string name);
         void removePlayer(); //TDOO
         void showPlayers(); //for debug purposes
-        void hit();
-        void hold(Player player);
+        void hit(Player& player);
+        void hold(Player& player);
     private:
         std::vector<Player> players_;
         Dealer dealer_;
-        std::unordered_map<std::string, std::any> commands_;  
+        std::unordered_map<std::string, void(Game::*)(Player&)> commands_ {
+            {"hit", &Game::hit},
+            {"hold", &Game::hold}
+        };  
 };
 
 }
