@@ -14,15 +14,20 @@ class Game {
         Game(Dealer dealer) : dealer_{dealer} {};
         void initialiseGame(); //Generate deck and add players
         void startGame(); //Plays game
+    private:
+        enum Command {
+            Hit,
+            Hold,
+            Split,
+            Invalid
+        };
         void processTurn(Player& player); //TODO
+        enum Command processCommand(std::string input); 
         int checkHand(Person person); //Return the total value of a players hand
         int activePlayers();
         void addPlayer(std::string name);
         void removePlayer(); //TDOO
         void showPlayers(); //for debug purposes
-        void hit(Player& player);
-        void hold(Player& player);
-    private:
         std::vector<Player> players_;
         Dealer dealer_;
 };

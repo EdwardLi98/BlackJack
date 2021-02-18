@@ -25,15 +25,40 @@ void blackJack::Game::startGame() {
     }
     dealer_.showHand();
     while (activePlayers() > 0) {
-        for (auto player: players_) {
+        for (auto& player: players_) {
             if (player.getPlayingStatus() == true) {
-                std::cout << player.getName() << " is still active." << std::endl;
                 processTurn(player);
                 player.showHand();
             }
         }
     }
     std::cout << "End game" << std::endl;
+}
+
+void blackJack::Game::processTurn(Player& player) {
+    std::string input;
+    std::cout << "What would " << player.getName() << " like to do?" << std::endl;
+    std::cin >> input;
+    auto command = processCommand(input);
+    switch (command) {
+        case Hit:
+            std::cout << player.getName() << " hits." << std::endl;
+            player.hit(dealer_);
+            break;
+        case Hold:
+            std::cout << player.getName() << " holds." << std::endl;
+            player.stand();
+            break;
+        case Invalid:
+            std::cout << "Invalid command. Valid commands are: hit, hold, split." << std::endl;
+            break;
+    }
+}
+
+enum blackJack::Game::Command blackJack::Game::processCommand(std::string input) {
+    if (input == "hit") return Hit;
+    if (input == "hold") return Hold;
+    return Invalid;
 }
 
 int blackJack::Game::activePlayers() {
@@ -55,11 +80,6 @@ int blackJack::Game::checkHand(Person person) {
     return sum;
 }
 
-void blackJack::Game::processTurn(Player& player) {
-    std::string input;
-    std::cout << "What would " << player.getName() << " like to do?" << std::endl;
-    std::cin >> input;
-}
 
 void blackJack::Game::addPlayer(std::string name) {
     auto player = Player(name);
@@ -72,14 +92,4 @@ void blackJack::Game::showPlayers() {
     for (auto player : players_) {
         std::cout << player.getName() << std::endl;
     }
-}
-
-void blackJack::Game::hit(Player& player) {
-    std::cout << player.getName() << " hits" << std::endl;
-    dealer_.deal(player);
-}
-
-void blackJack::Game::hold(Player& player) {
-    std::cout << player.getName() << " holds" << std::endl;
-    player.setPlayingStatus(false);
 }
