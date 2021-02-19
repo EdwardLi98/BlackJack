@@ -9,6 +9,9 @@ void blackJack::Game::initialiseGame() {
     std::cin >> name;
     addPlayer(name);
     std::cout << name << " has been added to the game." << std::endl;
+    while (players_.size() > 0) {
+        startGame();
+    }
 }
 
 void blackJack::Game::startGame() {
@@ -20,8 +23,9 @@ void blackJack::Game::startGame() {
         dealer_.deal(player);
     }
     dealer_.deal(dealer_);
-    for (auto player: players_) {
+    for (auto& player: players_) {
         player.showHand();
+        checkHand(player);
     }
     dealer_.showHand();
     while (activePlayers() > 0) {
@@ -44,6 +48,7 @@ void blackJack::Game::processTurn(Player& player) {
         case Hit:
             std::cout << player.getName() << " hits." << std::endl;
             player.hit(dealer_);
+            checkHand(player);
             break;
         case Hold:
             std::cout << player.getName() << " holds." << std::endl;
@@ -71,13 +76,35 @@ int blackJack::Game::activePlayers() {
     return active;
 }
 
-int blackJack::Game::checkHand(Person person) {
-    auto hand = person.getHand();
+void blackJack::Game::checkHand(Player& player) {
+    auto hand = player.getHand();
     auto sum = 0;
+    auto aceCounter = 0;
     for (auto card: *hand) {
-        sum += card.getValue();
+        auto value = card.getValue();
+        if (value <= 10) {
+            sum += value;
+            if (value == 1) {
+                aceCounter += 1;
+            }
+        }
+        else {
+            sum += 10;
+        }
     }
-    return sum;
+    for (auto counter = 0; counter < aceCounter; ++counter) {
+        if (sum > 21) {
+            sum -= 9;
+        }
+    }
+    if (sum == 21) {
+        std::cout << player.getName() << " has a blackjack!" << std::endl;
+        player.stand();
+    }
+    else if (sum > 21) {
+        std::cout << player.getName() << " has busted!" << std::endl;
+        player.stand();
+    }
 }
 
 

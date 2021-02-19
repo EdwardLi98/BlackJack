@@ -23,7 +23,7 @@ class Game {
         };
         void processTurn(Player& player); //TODO
         enum Command processCommand(std::string input); 
-        int checkHand(Person person); //Return the total value of a players hand
+        void checkHand(Player& player); //Return the total value of a players hand
         int activePlayers();
         void addPlayer(std::string name);
         void removePlayer(); //TDOO
