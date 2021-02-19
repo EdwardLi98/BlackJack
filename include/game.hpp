@@ -13,7 +13,7 @@ class Game {
     public:
         Game(Dealer dealer) : dealer_{dealer} {};
         void initialiseGame(); //Generate deck and add players
-        void startGame(); //Plays game
+        void runGame(); //Plays game
     private:
         enum Command {
             Hit,
@@ -23,8 +23,9 @@ class Game {
         };
         void processTurn(Player& player); //TODO
         enum Command processCommand(std::string input); 
-        void checkHand(Player& player); //Return the total value of a players hand
-        int activePlayers();
+        void checkHand(Person& person); //Return the total value of a players hand
+        int activePlayers(); //Return the total number of players still able to process actions (those who haven't folded or busted)
+        int bustedPlayers(); //Return the total number of players that have busted
         void addPlayer(std::string name);
         void removePlayer(); //TDOO
         void showPlayers(); //for debug purposes

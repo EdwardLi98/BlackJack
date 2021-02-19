@@ -3,23 +3,28 @@
 void blackJack::Game::initialiseGame() {
     //Assign a dealer to the game
     dealer_.generateDeck();
-    dealer_.shuffleDeck();
     std::cout << "Please enter player name: ";
     std::string name;
     std::cin >> name;
     addPlayer(name);
     std::cout << name << " has been added to the game." << std::endl;
     while (players_.size() > 0) {
-        startGame();
+        runGame();
     }
 }
 
-void blackJack::Game::startGame() {
+void blackJack::Game::runGame() {
+    for (auto& player: players_) {
+        player.setPlayingStatus(true);
+    }
+    dealer_.setPlayingStatus(true);
+    dealer_.setBustedStatus(false);
+    dealer_.shuffleDeck();
     std::cout << "=============== Starting Game ================" << std::endl;
-    for (auto player: players_) {
+    for (auto& player: players_) {
         dealer_.deal(player);
     }
-    for (auto player: players_) {
+    for (auto& player: players_) {
         dealer_.deal(player);
     }
     dealer_.deal(dealer_);
@@ -36,7 +41,47 @@ void blackJack::Game::startGame() {
             }
         }
     }
+    if (bustedPlayers() != players_.size()) {
+        while (dealer_.sumHand() <= 16) {
+            dealer_.deal(dealer_);
+        }
+    }
+    dealer_.showHand();
+    checkHand(dealer_);
+    auto dealerSum = dealer_.sumHand();
+    for (auto player: players_) {
+        if (player.getBustedStatus() == true) {
+            std::cout << player.getName() << " loses!" << std::endl;
+        }
+        else if (dealer_.getBustedStatus() == true) {
+            std::cout << player.getName() << " wins!" << std::endl;
+        } 
+        else {
+            auto playerSum = player.sumHand();
+            if (playerSum > dealerSum) {
+                std::cout << player.getName() << " wins!" << std::endl;
+            }
+            else if (playerSum == dealerSum) {
+                std::cout << player.getName() << " ties!" << std::endl;
+            }
+            else {
+                std::cout << player.getName() << " loses!" << std::endl;
+            }
+        }
+    }
     std::cout << "End game" << std::endl;
+    for (auto& player : players_) {
+        auto hand = player.getHand();
+        while (hand->size() > 0) {
+            dealer_.addCardToDeck(hand->back());
+            hand->pop_back();
+        }
+    }
+    auto hand = dealer_.getHand();
+    while (hand->size() > 0) {
+        dealer_.addCardToDeck(hand->back());
+        hand->pop_back();
+    }
 }
 
 void blackJack::Game::processTurn(Player& player) {
@@ -46,12 +91,12 @@ void blackJack::Game::processTurn(Player& player) {
     auto command = processCommand(input);
     switch (command) {
         case Hit:
-            std::cout << player.getName() << " hits." << std::endl;
+            //std::cout << player.getName() << " hits." << std::endl;
             player.hit(dealer_);
             checkHand(player);
             break;
         case Hold:
-            std::cout << player.getName() << " holds." << std::endl;
+            //std::cout << player.getName() << " holds." << std::endl;
             player.stand();
             break;
         case Invalid:
@@ -76,34 +121,26 @@ int blackJack::Game::activePlayers() {
     return active;
 }
 
-void blackJack::Game::checkHand(Player& player) {
-    auto hand = player.getHand();
-    auto sum = 0;
-    auto aceCounter = 0;
-    for (auto card: *hand) {
-        auto value = card.getValue();
-        if (value <= 10) {
-            sum += value;
-            if (value == 1) {
-                aceCounter += 1;
-            }
-        }
-        else {
-            sum += 10;
+int blackJack::Game::bustedPlayers() {
+    auto busted = 0;
+    for (auto player: players_) {
+        if (player.getBustedStatus() == true) {
+            busted += 1;
         }
     }
-    for (auto counter = 0; counter < aceCounter; ++counter) {
-        if (sum > 21) {
-            sum -= 9;
-        }
-    }
+    return busted;
+}
+
+void blackJack::Game::checkHand(Person& person) {
+    auto hand = person.getHand();
+    auto sum = person.sumHand();
     if (sum == 21) {
-        std::cout << player.getName() << " has a blackjack!" << std::endl;
-        player.stand();
+        std::cout << person.getName() << " has a blackjack!" << std::endl;
+        person.stand();
     }
     else if (sum > 21) {
-        std::cout << player.getName() << " has busted!" << std::endl;
-        player.stand();
+        std::cout << person.getName() << " has busted!" << std::endl;
+        person.bust();
     }
 }
 

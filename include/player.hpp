@@ -12,13 +12,10 @@ class Player : public Person {
     public:
         using Person::Person;
         void hit(Dealer &dealer); //TODO
-        void stand(); //TODO
         void doubleBet(); //TODO
         void split(); //TODO
-        bool getPlayingStatus() { return playingStatus_; };
     private:
         //int totalMoney; 
-        bool playingStatus_ = true;
 };
 }
 

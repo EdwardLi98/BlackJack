@@ -14,10 +14,10 @@ namespace blackJack {
 class Dealer : public Person {
     public:
         using Person::Person;
-        void deal(Person);
         void generateDeck();
-        void addCardToDeck(); //TODO
         void shuffleDeck(); 
+        void deal(Person);
+        void addCardToDeck(Card); //TODO
         void showDeck(); // For debug purposes
 
     private:
