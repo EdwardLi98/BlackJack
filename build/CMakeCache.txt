@@ -253,6 +253,9 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/strip.exe
 
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:STRING=C:\Users\edwar\Projects\vcpkg\scripts\buildsystems\vcpkg.cmake
+
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
@@ -311,8 +314,17 @@ MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
 //File that contains suppressions for the memory checker
 MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 
+//Path to a library.
+RANGE_V3:FILEPATH=RANGE_V3-NOTFOUND
+
 //Name of the computer/site where compile is being run
 SITE:STRING=DESKTOP-7T0P47L
+
+//No help, variable specified on the command line.
+VCPKG_TARGET_TRIPLET:STRING=x64-windows
+
+//The directory containing a CMake configuration file for range-v3.
+range-v3_DIR:PATH=range-v3_DIR-NOTFOUND
 
 
 ########################

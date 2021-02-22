@@ -1,33 +1,40 @@
 #ifndef person_hpp
 #define person_hpp
 
+#define BLACKJACK 21
+#define LARGE_ACE 11
+#define SMALL_ACE 1
+
 #include "card.hpp"
+#include <cmath>
 #include <vector>
 #include <iostream>
 #include <memory>
+#include <range/v3/algorithm/count.hpp>
+#include <range/v3/numeric/accumulate.hpp>
+#include <range/v3/view/transform.hpp>
+#include <range/v3/view/filter.hpp>
 
 namespace blackJack {
 class Person {
     public:
+        enum PlayerStatus {
+            Playing,
+            Standing,
+            Busted,
+            BlackJack
+        };
         Person(std::string name) : name_{name}, hand_ (std::make_shared<std::vector<Card>>()) {};
         std::string getName() {return name_;}
         std::shared_ptr<std::vector<Card>> getHand() {return hand_;}
         int sumHand();
         void showHand();
-        void stand() { playingStatus_ = false; };
-        void bust() { 
-            playingStatus_ = false;
-            bustedStatus_ = true;
-        }
-        bool getPlayingStatus() { return playingStatus_; };
-        void setPlayingStatus(bool value) { playingStatus_ = value; };
-        bool getBustedStatus() { return bustedStatus_; };
-        void setBustedStatus(bool value) { bustedStatus_ = value; };
+        PlayerStatus getStatus() { return status_ ;};
+        void setStatus(PlayerStatus status) { status_ = status;};
     private:
         std::string name_; 
         std::shared_ptr<std::vector<Card>> hand_;
-        bool playingStatus_; //Whether the player is still capable of doing actions (hasn't held)
-        bool bustedStatus_; //Whether the player has busted
+        PlayerStatus status_;
 };
 }
 

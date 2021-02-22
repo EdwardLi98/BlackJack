@@ -171,6 +171,82 @@ CMakeFiles/BlackJack.dir/source/dealer.cpp.obj: ../source/dealer.cpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
+  ../range-v3/include/range/v3/algorithm/count.hpp \
+  ../range-v3/include/range/v3/range_fwd.hpp \
+  ../range-v3/include/meta/meta.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstddef \
+  ../range-v3/include/meta/meta_fwd.hpp \
+  ../range-v3/include/concepts/concepts.hpp \
+  ../range-v3/include/concepts/swap.hpp \
+  ../range-v3/include/concepts/type_traits.hpp \
+  ../range-v3/include/concepts/compare.hpp \
+  ../range-v3/include/range/v3/detail/config.hpp \
+  ../range-v3/include/range/v3/utility/static_const.hpp \
+  ../range-v3/include/range/v3/version.hpp \
+  ../range-v3/include/range/v3/detail/prologue.hpp \
+  ../range-v3/include/range/v3/detail/epilogue.hpp \
+  ../range-v3/include/range/v3/functional/identity.hpp \
+  ../range-v3/include/range/v3/functional/invoke.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/functional \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+  ../range-v3/include/range/v3/iterator/concepts.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/iterator \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stream_iterator.h \
+  ../range-v3/include/range/v3/functional/comparisons.hpp \
+  ../range-v3/include/range/v3/functional/concepts.hpp \
+  ../range-v3/include/range/v3/iterator/access.hpp \
+  ../range-v3/include/std/detail/associated_types.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/climits \
+  ../range-v3/include/range/v3/utility/move.hpp \
+  ../range-v3/include/range/v3/utility/swap.hpp \
+  ../range-v3/include/range/v3/iterator/traits.hpp \
+  ../range-v3/include/range/v3/utility/common_type.hpp \
+  ../range-v3/include/range/v3/range/access.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/string_view \
+  ../range-v3/include/range/v3/iterator/reverse_iterator.hpp \
+  ../range-v3/include/range/v3/iterator/basic_iterator.hpp \
+  ../range-v3/include/range/v3/detail/range_access.hpp \
+  ../range-v3/include/range/v3/utility/addressof.hpp \
+  ../range-v3/include/range/v3/utility/box.hpp \
+  ../range-v3/include/range/v3/utility/get.hpp \
+  ../range-v3/include/range/v3/detail/adl_get.hpp \
+  ../range-v3/include/range/v3/utility/semiregular_box.hpp \
+  ../range-v3/include/range/v3/functional/reference_wrapper.hpp \
+  ../range-v3/include/range/v3/utility/in_place.hpp \
+  ../range-v3/include/range/v3/range/concepts.hpp \
+  ../range-v3/include/range/v3/range/primitives.hpp \
+  ../range-v3/include/range/v3/range/traits.hpp \
+  ../range-v3/include/range/v3/numeric/accumulate.hpp \
+  ../range-v3/include/range/v3/functional/arithmetic.hpp \
+  ../range-v3/include/range/v3/view/transform.hpp \
+  ../range-v3/include/range/v3/algorithm/max.hpp \
+  ../range-v3/include/range/v3/algorithm/min.hpp \
+  ../range-v3/include/range/v3/functional/bind_back.hpp \
+  ../range-v3/include/range/v3/utility/tuple_algorithm.hpp \
+  ../range-v3/include/range/v3/functional/indirect.hpp \
+  ../range-v3/include/range/v3/iterator/operations.hpp \
+  ../range-v3/include/range/v3/view/adaptor.hpp \
+  ../range-v3/include/range/v3/utility/compressed_pair.hpp \
+  ../range-v3/include/range/v3/view/all.hpp \
+  ../range-v3/include/range/v3/view/ref.hpp \
+  ../range-v3/include/range/v3/view/interface.hpp \
+  ../range-v3/include/range/v3/iterator/common_iterator.hpp \
+  ../range-v3/include/range/v3/detail/variant.hpp \
+  ../range-v3/include/range/v3/functional/compose.hpp \
+  ../range-v3/include/range/v3/utility/common_tuple.hpp \
+  ../range-v3/include/range/v3/functional/bind.hpp \
+  ../range-v3/include/range/v3/detail/satisfy_boost_range.hpp \
+  ../range-v3/include/range/v3/view/subrange.hpp \
+  ../range-v3/include/range/v3/iterator/unreachable_sentinel.hpp \
+  ../range-v3/include/range/v3/range/dangling.hpp \
+  ../range-v3/include/range/v3/view/view.hpp \
+  ../range-v3/include/range/v3/functional/pipeable.hpp \
+  ../range-v3/include/range/v3/view/facade.hpp \
+  ../range-v3/include/range/v3/iterator/default_sentinel.hpp \
+  ../range-v3/include/range/v3/view/filter.hpp \
+  ../range-v3/include/range/v3/functional/not_fn.hpp \
+  ../range-v3/include/range/v3/view/remove_if.hpp \
+  ../range-v3/include/range/v3/utility/optional.hpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/algorithm \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
@@ -185,16 +261,39 @@ CMakeFiles/BlackJack.dir/source/dealer.cpp.obj: ../source/dealer.cpp \
 
 CMakeFiles/BlackJack.dir/source/game.cpp.obj: ../source/game.cpp \
   ../include/game.hpp \
-  ../include/player.hpp \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/vector \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+  ../include/person.hpp \
+  ../include/card.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/random \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cmath \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/c++config.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/os_defines.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/cpu_defines.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/math.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_mingw.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_mingw_mac.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_mingw_secapi.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stdlib.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/limits.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/limits.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/malloc.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstdlib \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/string \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/move.h \
@@ -207,54 +306,6 @@ CMakeFiles/BlackJack.dir/source/game.cpp.obj: ../source/game.cpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/debug/debug.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/c++allocator.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/new \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/exception \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/exception.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stddef.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stddef.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/typeinfo \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/initializer_list \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
-  ../include/person.hpp \
-  ../include/card.hpp \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/random \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cmath \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/math.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/limits.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/syslimits.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/limits.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/stdlib.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/malloc.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstdlib \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/string \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cwchar \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/wchar.h \
@@ -267,6 +318,19 @@ CMakeFiles/BlackJack.dir/source/game.cpp.obj: ../source/game.cpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstdint \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdint.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stdint.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stddef.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stddef.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/exception \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/exception.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/typeinfo \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/c++locale.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/clocale \
@@ -280,6 +344,8 @@ CMakeFiles/BlackJack.dir/source/game.cpp.obj: ../source/game.cpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/initializer_list \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/gthr.h \
@@ -296,12 +362,21 @@ CMakeFiles/BlackJack.dir/source/game.cpp.obj: ../source/game.cpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/pthread_compat.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/pthread_unistd.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstdio \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cerrno \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/limits \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/random.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/vector \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/opt_random.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/random.tcc \
@@ -354,6 +429,83 @@ CMakeFiles/BlackJack.dir/source/game.cpp.obj: ../source/game.cpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
+  ../range-v3/include/range/v3/algorithm/count.hpp \
+  ../range-v3/include/range/v3/range_fwd.hpp \
+  ../range-v3/include/meta/meta.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstddef \
+  ../range-v3/include/meta/meta_fwd.hpp \
+  ../range-v3/include/concepts/concepts.hpp \
+  ../range-v3/include/concepts/swap.hpp \
+  ../range-v3/include/concepts/type_traits.hpp \
+  ../range-v3/include/concepts/compare.hpp \
+  ../range-v3/include/range/v3/detail/config.hpp \
+  ../range-v3/include/range/v3/utility/static_const.hpp \
+  ../range-v3/include/range/v3/version.hpp \
+  ../range-v3/include/range/v3/detail/prologue.hpp \
+  ../range-v3/include/range/v3/detail/epilogue.hpp \
+  ../range-v3/include/range/v3/functional/identity.hpp \
+  ../range-v3/include/range/v3/functional/invoke.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/functional \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+  ../range-v3/include/range/v3/iterator/concepts.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/iterator \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stream_iterator.h \
+  ../range-v3/include/range/v3/functional/comparisons.hpp \
+  ../range-v3/include/range/v3/functional/concepts.hpp \
+  ../range-v3/include/range/v3/iterator/access.hpp \
+  ../range-v3/include/std/detail/associated_types.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/climits \
+  ../range-v3/include/range/v3/utility/move.hpp \
+  ../range-v3/include/range/v3/utility/swap.hpp \
+  ../range-v3/include/range/v3/iterator/traits.hpp \
+  ../range-v3/include/range/v3/utility/common_type.hpp \
+  ../range-v3/include/range/v3/range/access.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/string_view \
+  ../range-v3/include/range/v3/iterator/reverse_iterator.hpp \
+  ../range-v3/include/range/v3/iterator/basic_iterator.hpp \
+  ../range-v3/include/range/v3/detail/range_access.hpp \
+  ../range-v3/include/range/v3/utility/addressof.hpp \
+  ../range-v3/include/range/v3/utility/box.hpp \
+  ../range-v3/include/range/v3/utility/get.hpp \
+  ../range-v3/include/range/v3/detail/adl_get.hpp \
+  ../range-v3/include/range/v3/utility/semiregular_box.hpp \
+  ../range-v3/include/range/v3/functional/reference_wrapper.hpp \
+  ../range-v3/include/range/v3/utility/in_place.hpp \
+  ../range-v3/include/range/v3/range/concepts.hpp \
+  ../range-v3/include/range/v3/range/primitives.hpp \
+  ../range-v3/include/range/v3/range/traits.hpp \
+  ../range-v3/include/range/v3/numeric/accumulate.hpp \
+  ../range-v3/include/range/v3/functional/arithmetic.hpp \
+  ../range-v3/include/range/v3/view/transform.hpp \
+  ../range-v3/include/range/v3/algorithm/max.hpp \
+  ../range-v3/include/range/v3/algorithm/min.hpp \
+  ../range-v3/include/range/v3/functional/bind_back.hpp \
+  ../range-v3/include/range/v3/utility/tuple_algorithm.hpp \
+  ../range-v3/include/range/v3/functional/indirect.hpp \
+  ../range-v3/include/range/v3/iterator/operations.hpp \
+  ../range-v3/include/range/v3/view/adaptor.hpp \
+  ../range-v3/include/range/v3/utility/compressed_pair.hpp \
+  ../range-v3/include/range/v3/view/all.hpp \
+  ../range-v3/include/range/v3/view/ref.hpp \
+  ../range-v3/include/range/v3/view/interface.hpp \
+  ../range-v3/include/range/v3/iterator/common_iterator.hpp \
+  ../range-v3/include/range/v3/detail/variant.hpp \
+  ../range-v3/include/range/v3/functional/compose.hpp \
+  ../range-v3/include/range/v3/utility/common_tuple.hpp \
+  ../range-v3/include/range/v3/functional/bind.hpp \
+  ../range-v3/include/range/v3/detail/satisfy_boost_range.hpp \
+  ../range-v3/include/range/v3/view/subrange.hpp \
+  ../range-v3/include/range/v3/iterator/unreachable_sentinel.hpp \
+  ../range-v3/include/range/v3/range/dangling.hpp \
+  ../range-v3/include/range/v3/view/view.hpp \
+  ../range-v3/include/range/v3/functional/pipeable.hpp \
+  ../range-v3/include/range/v3/view/facade.hpp \
+  ../range-v3/include/range/v3/iterator/default_sentinel.hpp \
+  ../range-v3/include/range/v3/view/filter.hpp \
+  ../range-v3/include/range/v3/functional/not_fn.hpp \
+  ../range-v3/include/range/v3/view/remove_if.hpp \
+  ../range-v3/include/range/v3/utility/optional.hpp \
+  ../include/player.hpp \
   ../include/dealer.hpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/algorithm \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
@@ -366,8 +518,8 @@ CMakeFiles/BlackJack.dir/source/game.cpp.obj: ../source/game.cpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_timeval.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/pthread_time.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/functional \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+  ../range-v3/include/range/v3/algorithm/for_each.hpp \
+  ../range-v3/include/range/v3/algorithm/result_types.hpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/any
 
 CMakeFiles/BlackJack.dir/source/main.cpp.obj: ../source/main.cpp \
@@ -540,6 +692,82 @@ CMakeFiles/BlackJack.dir/source/main.cpp.obj: ../source/main.cpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
+  ../range-v3/include/range/v3/algorithm/count.hpp \
+  ../range-v3/include/range/v3/range_fwd.hpp \
+  ../range-v3/include/meta/meta.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstddef \
+  ../range-v3/include/meta/meta_fwd.hpp \
+  ../range-v3/include/concepts/concepts.hpp \
+  ../range-v3/include/concepts/swap.hpp \
+  ../range-v3/include/concepts/type_traits.hpp \
+  ../range-v3/include/concepts/compare.hpp \
+  ../range-v3/include/range/v3/detail/config.hpp \
+  ../range-v3/include/range/v3/utility/static_const.hpp \
+  ../range-v3/include/range/v3/version.hpp \
+  ../range-v3/include/range/v3/detail/prologue.hpp \
+  ../range-v3/include/range/v3/detail/epilogue.hpp \
+  ../range-v3/include/range/v3/functional/identity.hpp \
+  ../range-v3/include/range/v3/functional/invoke.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/functional \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+  ../range-v3/include/range/v3/iterator/concepts.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/iterator \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stream_iterator.h \
+  ../range-v3/include/range/v3/functional/comparisons.hpp \
+  ../range-v3/include/range/v3/functional/concepts.hpp \
+  ../range-v3/include/range/v3/iterator/access.hpp \
+  ../range-v3/include/std/detail/associated_types.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/climits \
+  ../range-v3/include/range/v3/utility/move.hpp \
+  ../range-v3/include/range/v3/utility/swap.hpp \
+  ../range-v3/include/range/v3/iterator/traits.hpp \
+  ../range-v3/include/range/v3/utility/common_type.hpp \
+  ../range-v3/include/range/v3/range/access.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/string_view \
+  ../range-v3/include/range/v3/iterator/reverse_iterator.hpp \
+  ../range-v3/include/range/v3/iterator/basic_iterator.hpp \
+  ../range-v3/include/range/v3/detail/range_access.hpp \
+  ../range-v3/include/range/v3/utility/addressof.hpp \
+  ../range-v3/include/range/v3/utility/box.hpp \
+  ../range-v3/include/range/v3/utility/get.hpp \
+  ../range-v3/include/range/v3/detail/adl_get.hpp \
+  ../range-v3/include/range/v3/utility/semiregular_box.hpp \
+  ../range-v3/include/range/v3/functional/reference_wrapper.hpp \
+  ../range-v3/include/range/v3/utility/in_place.hpp \
+  ../range-v3/include/range/v3/range/concepts.hpp \
+  ../range-v3/include/range/v3/range/primitives.hpp \
+  ../range-v3/include/range/v3/range/traits.hpp \
+  ../range-v3/include/range/v3/numeric/accumulate.hpp \
+  ../range-v3/include/range/v3/functional/arithmetic.hpp \
+  ../range-v3/include/range/v3/view/transform.hpp \
+  ../range-v3/include/range/v3/algorithm/max.hpp \
+  ../range-v3/include/range/v3/algorithm/min.hpp \
+  ../range-v3/include/range/v3/functional/bind_back.hpp \
+  ../range-v3/include/range/v3/utility/tuple_algorithm.hpp \
+  ../range-v3/include/range/v3/functional/indirect.hpp \
+  ../range-v3/include/range/v3/iterator/operations.hpp \
+  ../range-v3/include/range/v3/view/adaptor.hpp \
+  ../range-v3/include/range/v3/utility/compressed_pair.hpp \
+  ../range-v3/include/range/v3/view/all.hpp \
+  ../range-v3/include/range/v3/view/ref.hpp \
+  ../range-v3/include/range/v3/view/interface.hpp \
+  ../range-v3/include/range/v3/iterator/common_iterator.hpp \
+  ../range-v3/include/range/v3/detail/variant.hpp \
+  ../range-v3/include/range/v3/functional/compose.hpp \
+  ../range-v3/include/range/v3/utility/common_tuple.hpp \
+  ../range-v3/include/range/v3/functional/bind.hpp \
+  ../range-v3/include/range/v3/detail/satisfy_boost_range.hpp \
+  ../range-v3/include/range/v3/view/subrange.hpp \
+  ../range-v3/include/range/v3/iterator/unreachable_sentinel.hpp \
+  ../range-v3/include/range/v3/range/dangling.hpp \
+  ../range-v3/include/range/v3/view/view.hpp \
+  ../range-v3/include/range/v3/functional/pipeable.hpp \
+  ../range-v3/include/range/v3/view/facade.hpp \
+  ../range-v3/include/range/v3/iterator/default_sentinel.hpp \
+  ../range-v3/include/range/v3/view/filter.hpp \
+  ../range-v3/include/range/v3/functional/not_fn.hpp \
+  ../range-v3/include/range/v3/view/remove_if.hpp \
+  ../range-v3/include/range/v3/utility/optional.hpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/algorithm \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
@@ -556,8 +784,8 @@ CMakeFiles/BlackJack.dir/source/main.cpp.obj: ../source/main.cpp \
   ../include/card.hpp \
   ../include/game.hpp \
   ../include/player.hpp \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/functional \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+  ../range-v3/include/range/v3/algorithm/for_each.hpp \
+  ../range-v3/include/range/v3/algorithm/result_types.hpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/any
 
 CMakeFiles/BlackJack.dir/source/person.cpp.obj: ../source/person.cpp \
@@ -728,7 +956,83 @@ CMakeFiles/BlackJack.dir/source/person.cpp.obj: ../source/person.cpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
-  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
+  ../range-v3/include/range/v3/algorithm/count.hpp \
+  ../range-v3/include/range/v3/range_fwd.hpp \
+  ../range-v3/include/meta/meta.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstddef \
+  ../range-v3/include/meta/meta_fwd.hpp \
+  ../range-v3/include/concepts/concepts.hpp \
+  ../range-v3/include/concepts/swap.hpp \
+  ../range-v3/include/concepts/type_traits.hpp \
+  ../range-v3/include/concepts/compare.hpp \
+  ../range-v3/include/range/v3/detail/config.hpp \
+  ../range-v3/include/range/v3/utility/static_const.hpp \
+  ../range-v3/include/range/v3/version.hpp \
+  ../range-v3/include/range/v3/detail/prologue.hpp \
+  ../range-v3/include/range/v3/detail/epilogue.hpp \
+  ../range-v3/include/range/v3/functional/identity.hpp \
+  ../range-v3/include/range/v3/functional/invoke.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/functional \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+  ../range-v3/include/range/v3/iterator/concepts.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/iterator \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stream_iterator.h \
+  ../range-v3/include/range/v3/functional/comparisons.hpp \
+  ../range-v3/include/range/v3/functional/concepts.hpp \
+  ../range-v3/include/range/v3/iterator/access.hpp \
+  ../range-v3/include/std/detail/associated_types.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/climits \
+  ../range-v3/include/range/v3/utility/move.hpp \
+  ../range-v3/include/range/v3/utility/swap.hpp \
+  ../range-v3/include/range/v3/iterator/traits.hpp \
+  ../range-v3/include/range/v3/utility/common_type.hpp \
+  ../range-v3/include/range/v3/range/access.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/string_view \
+  ../range-v3/include/range/v3/iterator/reverse_iterator.hpp \
+  ../range-v3/include/range/v3/iterator/basic_iterator.hpp \
+  ../range-v3/include/range/v3/detail/range_access.hpp \
+  ../range-v3/include/range/v3/utility/addressof.hpp \
+  ../range-v3/include/range/v3/utility/box.hpp \
+  ../range-v3/include/range/v3/utility/get.hpp \
+  ../range-v3/include/range/v3/detail/adl_get.hpp \
+  ../range-v3/include/range/v3/utility/semiregular_box.hpp \
+  ../range-v3/include/range/v3/functional/reference_wrapper.hpp \
+  ../range-v3/include/range/v3/utility/in_place.hpp \
+  ../range-v3/include/range/v3/range/concepts.hpp \
+  ../range-v3/include/range/v3/range/primitives.hpp \
+  ../range-v3/include/range/v3/range/traits.hpp \
+  ../range-v3/include/range/v3/numeric/accumulate.hpp \
+  ../range-v3/include/range/v3/functional/arithmetic.hpp \
+  ../range-v3/include/range/v3/view/transform.hpp \
+  ../range-v3/include/range/v3/algorithm/max.hpp \
+  ../range-v3/include/range/v3/algorithm/min.hpp \
+  ../range-v3/include/range/v3/functional/bind_back.hpp \
+  ../range-v3/include/range/v3/utility/tuple_algorithm.hpp \
+  ../range-v3/include/range/v3/functional/indirect.hpp \
+  ../range-v3/include/range/v3/iterator/operations.hpp \
+  ../range-v3/include/range/v3/view/adaptor.hpp \
+  ../range-v3/include/range/v3/utility/compressed_pair.hpp \
+  ../range-v3/include/range/v3/view/all.hpp \
+  ../range-v3/include/range/v3/view/ref.hpp \
+  ../range-v3/include/range/v3/view/interface.hpp \
+  ../range-v3/include/range/v3/iterator/common_iterator.hpp \
+  ../range-v3/include/range/v3/detail/variant.hpp \
+  ../range-v3/include/range/v3/functional/compose.hpp \
+  ../range-v3/include/range/v3/utility/common_tuple.hpp \
+  ../range-v3/include/range/v3/functional/bind.hpp \
+  ../range-v3/include/range/v3/detail/satisfy_boost_range.hpp \
+  ../range-v3/include/range/v3/view/subrange.hpp \
+  ../range-v3/include/range/v3/iterator/unreachable_sentinel.hpp \
+  ../range-v3/include/range/v3/range/dangling.hpp \
+  ../range-v3/include/range/v3/view/view.hpp \
+  ../range-v3/include/range/v3/functional/pipeable.hpp \
+  ../range-v3/include/range/v3/view/facade.hpp \
+  ../range-v3/include/range/v3/iterator/default_sentinel.hpp \
+  ../range-v3/include/range/v3/view/filter.hpp \
+  ../range-v3/include/range/v3/functional/not_fn.hpp \
+  ../range-v3/include/range/v3/view/remove_if.hpp \
+  ../range-v3/include/range/v3/utility/optional.hpp
 
 CMakeFiles/BlackJack.dir/source/player.cpp.obj: ../source/player.cpp \
   ../include/player.hpp \
@@ -900,6 +1204,82 @@ CMakeFiles/BlackJack.dir/source/player.cpp.obj: ../source/player.cpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
+  ../range-v3/include/range/v3/algorithm/count.hpp \
+  ../range-v3/include/range/v3/range_fwd.hpp \
+  ../range-v3/include/meta/meta.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstddef \
+  ../range-v3/include/meta/meta_fwd.hpp \
+  ../range-v3/include/concepts/concepts.hpp \
+  ../range-v3/include/concepts/swap.hpp \
+  ../range-v3/include/concepts/type_traits.hpp \
+  ../range-v3/include/concepts/compare.hpp \
+  ../range-v3/include/range/v3/detail/config.hpp \
+  ../range-v3/include/range/v3/utility/static_const.hpp \
+  ../range-v3/include/range/v3/version.hpp \
+  ../range-v3/include/range/v3/detail/prologue.hpp \
+  ../range-v3/include/range/v3/detail/epilogue.hpp \
+  ../range-v3/include/range/v3/functional/identity.hpp \
+  ../range-v3/include/range/v3/functional/invoke.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/functional \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+  ../range-v3/include/range/v3/iterator/concepts.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/iterator \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stream_iterator.h \
+  ../range-v3/include/range/v3/functional/comparisons.hpp \
+  ../range-v3/include/range/v3/functional/concepts.hpp \
+  ../range-v3/include/range/v3/iterator/access.hpp \
+  ../range-v3/include/std/detail/associated_types.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/climits \
+  ../range-v3/include/range/v3/utility/move.hpp \
+  ../range-v3/include/range/v3/utility/swap.hpp \
+  ../range-v3/include/range/v3/iterator/traits.hpp \
+  ../range-v3/include/range/v3/utility/common_type.hpp \
+  ../range-v3/include/range/v3/range/access.hpp \
+  C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/string_view \
+  ../range-v3/include/range/v3/iterator/reverse_iterator.hpp \
+  ../range-v3/include/range/v3/iterator/basic_iterator.hpp \
+  ../range-v3/include/range/v3/detail/range_access.hpp \
+  ../range-v3/include/range/v3/utility/addressof.hpp \
+  ../range-v3/include/range/v3/utility/box.hpp \
+  ../range-v3/include/range/v3/utility/get.hpp \
+  ../range-v3/include/range/v3/detail/adl_get.hpp \
+  ../range-v3/include/range/v3/utility/semiregular_box.hpp \
+  ../range-v3/include/range/v3/functional/reference_wrapper.hpp \
+  ../range-v3/include/range/v3/utility/in_place.hpp \
+  ../range-v3/include/range/v3/range/concepts.hpp \
+  ../range-v3/include/range/v3/range/primitives.hpp \
+  ../range-v3/include/range/v3/range/traits.hpp \
+  ../range-v3/include/range/v3/numeric/accumulate.hpp \
+  ../range-v3/include/range/v3/functional/arithmetic.hpp \
+  ../range-v3/include/range/v3/view/transform.hpp \
+  ../range-v3/include/range/v3/algorithm/max.hpp \
+  ../range-v3/include/range/v3/algorithm/min.hpp \
+  ../range-v3/include/range/v3/functional/bind_back.hpp \
+  ../range-v3/include/range/v3/utility/tuple_algorithm.hpp \
+  ../range-v3/include/range/v3/functional/indirect.hpp \
+  ../range-v3/include/range/v3/iterator/operations.hpp \
+  ../range-v3/include/range/v3/view/adaptor.hpp \
+  ../range-v3/include/range/v3/utility/compressed_pair.hpp \
+  ../range-v3/include/range/v3/view/all.hpp \
+  ../range-v3/include/range/v3/view/ref.hpp \
+  ../range-v3/include/range/v3/view/interface.hpp \
+  ../range-v3/include/range/v3/iterator/common_iterator.hpp \
+  ../range-v3/include/range/v3/detail/variant.hpp \
+  ../range-v3/include/range/v3/functional/compose.hpp \
+  ../range-v3/include/range/v3/utility/common_tuple.hpp \
+  ../range-v3/include/range/v3/functional/bind.hpp \
+  ../range-v3/include/range/v3/detail/satisfy_boost_range.hpp \
+  ../range-v3/include/range/v3/view/subrange.hpp \
+  ../range-v3/include/range/v3/iterator/unreachable_sentinel.hpp \
+  ../range-v3/include/range/v3/range/dangling.hpp \
+  ../range-v3/include/range/v3/view/view.hpp \
+  ../range-v3/include/range/v3/functional/pipeable.hpp \
+  ../range-v3/include/range/v3/view/facade.hpp \
+  ../range-v3/include/range/v3/iterator/default_sentinel.hpp \
+  ../range-v3/include/range/v3/view/filter.hpp \
+  ../range-v3/include/range/v3/functional/not_fn.hpp \
+  ../range-v3/include/range/v3/view/remove_if.hpp \
+  ../range-v3/include/range/v3/utility/optional.hpp \
   ../include/dealer.hpp \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/algorithm \
   C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
@@ -918,9 +1298,15 @@ CMakeFiles/BlackJack.dir/source/player.cpp.obj: ../source/player.cpp \
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cmath:
 
+../range-v3/include/concepts/compare.hpp:
+
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/process.h:
 
 ../include/person.hpp:
+
+../range-v3/include/range/v3/iterator/common_iterator.hpp:
+
+../range-v3/include/range/v3/utility/tuple_algorithm.hpp:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h:
 
@@ -936,6 +1322,8 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/random:
 
+../range-v3/include/range/v3/utility/box.hpp:
+
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/c++config.h:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/os_defines.h:
@@ -946,6 +1334,8 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i68
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/stdint.h:
 
+../range-v3/include/range/v3/range/access.hpp:
+
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/cpu_defines.h:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/iostream:
@@ -953,6 +1343,8 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/type_traits.h:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/std_abs.h:
+
+../range-v3/include/range/v3/functional/bind.hpp:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/crtdefs.h:
 
@@ -990,6 +1382,8 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stdlib.h:
 
+../range-v3/include/range/v3/version.hpp:
+
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stddef.h:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed/syslimits.h:
@@ -1007,6 +1401,8 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/sec_api/wchar_s.h:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/functexcept.h:
+
+../range-v3/include/range/v3/numeric/accumulate.hpp:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/malloc.h:
 
@@ -1056,6 +1452,8 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i68
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_mingw_print_push.h:
 
+../range-v3/include/range/v3/functional/identity.hpp:
+
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/ctype_inline.h:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_mingw_off_t.h:
@@ -1063,6 +1461,8 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i68
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/_mingw_stat64.h:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstdint:
+
+../range-v3/include/range/v3/detail/range_access.hpp:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/stdint.h:
 
@@ -1077,6 +1477,8 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/exception:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/exception.h:
+
+../range-v3/include/range/v3/utility/compressed_pair.hpp:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h:
 
@@ -1142,6 +1544,8 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i68
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/sys/timeb.h:
 
+../range-v3/include/range/v3/functional/pipeable.hpp:
+
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/sec_api/sys/timeb_s.h:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/pthread_unistd.h:
@@ -1149,6 +1553,10 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i68
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h:
+
+C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/string_view:
+
+../range-v3/include/meta/meta.hpp:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h:
 
@@ -1196,6 +1604,8 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/utility:
 
+../range-v3/include/concepts/swap.hpp:
+
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/array:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/stdexcept:
@@ -1218,7 +1628,11 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/system_error:
 
+../range-v3/include/range/v3/view/interface.hpp:
+
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32/bits/error_constants.h:
+
+C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cstddef:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/streambuf:
 
@@ -1268,6 +1682,124 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h:
 
+../range-v3/include/range/v3/algorithm/count.hpp:
+
+../range-v3/include/range/v3/range_fwd.hpp:
+
+../range-v3/include/meta/meta_fwd.hpp:
+
+../range-v3/include/concepts/concepts.hpp:
+
+../range-v3/include/concepts/type_traits.hpp:
+
+../range-v3/include/range/v3/detail/config.hpp:
+
+../range-v3/include/range/v3/utility/static_const.hpp:
+
+../range-v3/include/range/v3/detail/prologue.hpp:
+
+../range-v3/include/range/v3/detail/epilogue.hpp:
+
+../range-v3/include/range/v3/functional/invoke.hpp:
+
+../range-v3/include/range/v3/iterator/concepts.hpp:
+
+C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/iterator:
+
+C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stream_iterator.h:
+
+../range-v3/include/range/v3/functional/comparisons.hpp:
+
+../range-v3/include/range/v3/functional/concepts.hpp:
+
+../range-v3/include/range/v3/iterator/access.hpp:
+
+../range-v3/include/std/detail/associated_types.hpp:
+
+C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/climits:
+
+../range-v3/include/range/v3/view/remove_if.hpp:
+
+../range-v3/include/range/v3/utility/move.hpp:
+
+../range-v3/include/range/v3/utility/swap.hpp:
+
+../range-v3/include/range/v3/iterator/traits.hpp:
+
+../range-v3/include/range/v3/utility/common_type.hpp:
+
+../range-v3/include/range/v3/iterator/reverse_iterator.hpp:
+
+../range-v3/include/range/v3/iterator/basic_iterator.hpp:
+
+../range-v3/include/range/v3/utility/addressof.hpp:
+
+../range-v3/include/range/v3/view/all.hpp:
+
+../range-v3/include/range/v3/utility/get.hpp:
+
+../range-v3/include/range/v3/detail/adl_get.hpp:
+
+../range-v3/include/range/v3/utility/semiregular_box.hpp:
+
+../range-v3/include/range/v3/view/ref.hpp:
+
+../range-v3/include/range/v3/functional/reference_wrapper.hpp:
+
+../range-v3/include/range/v3/utility/in_place.hpp:
+
+../range-v3/include/range/v3/range/concepts.hpp:
+
+../range-v3/include/range/v3/range/primitives.hpp:
+
+../range-v3/include/range/v3/range/traits.hpp:
+
+../range-v3/include/range/v3/functional/arithmetic.hpp:
+
+../range-v3/include/range/v3/view/transform.hpp:
+
+../range-v3/include/range/v3/algorithm/max.hpp:
+
+../range-v3/include/range/v3/algorithm/min.hpp:
+
+../range-v3/include/range/v3/functional/bind_back.hpp:
+
+../range-v3/include/range/v3/functional/indirect.hpp:
+
+../range-v3/include/range/v3/iterator/operations.hpp:
+
+../range-v3/include/range/v3/view/adaptor.hpp:
+
+../range-v3/include/range/v3/detail/variant.hpp:
+
+../range-v3/include/range/v3/functional/compose.hpp:
+
+../range-v3/include/range/v3/utility/common_tuple.hpp:
+
+../range-v3/include/range/v3/detail/satisfy_boost_range.hpp:
+
+../source/person.cpp:
+
+../source/main.cpp:
+
+../range-v3/include/range/v3/view/subrange.hpp:
+
+../range-v3/include/range/v3/iterator/unreachable_sentinel.hpp:
+
+../range-v3/include/range/v3/range/dangling.hpp:
+
+../range-v3/include/range/v3/view/view.hpp:
+
+../range-v3/include/range/v3/view/facade.hpp:
+
+../range-v3/include/range/v3/iterator/default_sentinel.hpp:
+
+../range-v3/include/range/v3/view/filter.hpp:
+
+../range-v3/include/range/v3/functional/not_fn.hpp:
+
+../range-v3/include/range/v3/utility/optional.hpp:
+
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/algorithm:
 
 C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:
@@ -1288,8 +1820,8 @@ C:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i68
 
 ../include/player.hpp:
 
-../source/person.cpp:
+../range-v3/include/range/v3/algorithm/for_each.hpp:
 
-../source/main.cpp:
+../range-v3/include/range/v3/algorithm/result_types.hpp:
 
 ../source/player.cpp:

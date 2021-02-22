@@ -17,7 +17,7 @@ class Dealer : public Person {
         void generateDeck();
         void shuffleDeck(); 
         void deal(Person);
-        void addCardToDeck(Card); //TODO
+        void setup(); //Run at the start of every round to reset dealer state
         void showDeck(); // For debug purposes
 
     private:

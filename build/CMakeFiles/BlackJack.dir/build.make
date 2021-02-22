@@ -69,6 +69,7 @@ include CMakeFiles/BlackJack.dir/progress.make
 include CMakeFiles/BlackJack.dir/flags.make
 
 CMakeFiles/BlackJack.dir/source/main.cpp.obj: CMakeFiles/BlackJack.dir/flags.make
+CMakeFiles/BlackJack.dir/source/main.cpp.obj: CMakeFiles/BlackJack.dir/includes_CXX.rsp
 CMakeFiles/BlackJack.dir/source/main.cpp.obj: ../source/main.cpp
 CMakeFiles/BlackJack.dir/source/main.cpp.obj: CMakeFiles/BlackJack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\edwar\Projects\BlackJack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlackJack.dir/source/main.cpp.obj"
@@ -83,6 +84,7 @@ CMakeFiles/BlackJack.dir/source/main.cpp.s: cmake_force
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\edwar\Projects\BlackJack\source\main.cpp -o CMakeFiles\BlackJack.dir\source\main.cpp.s
 
 CMakeFiles/BlackJack.dir/source/dealer.cpp.obj: CMakeFiles/BlackJack.dir/flags.make
+CMakeFiles/BlackJack.dir/source/dealer.cpp.obj: CMakeFiles/BlackJack.dir/includes_CXX.rsp
 CMakeFiles/BlackJack.dir/source/dealer.cpp.obj: ../source/dealer.cpp
 CMakeFiles/BlackJack.dir/source/dealer.cpp.obj: CMakeFiles/BlackJack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\edwar\Projects\BlackJack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BlackJack.dir/source/dealer.cpp.obj"
@@ -97,6 +99,7 @@ CMakeFiles/BlackJack.dir/source/dealer.cpp.s: cmake_force
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\edwar\Projects\BlackJack\source\dealer.cpp -o CMakeFiles\BlackJack.dir\source\dealer.cpp.s
 
 CMakeFiles/BlackJack.dir/source/game.cpp.obj: CMakeFiles/BlackJack.dir/flags.make
+CMakeFiles/BlackJack.dir/source/game.cpp.obj: CMakeFiles/BlackJack.dir/includes_CXX.rsp
 CMakeFiles/BlackJack.dir/source/game.cpp.obj: ../source/game.cpp
 CMakeFiles/BlackJack.dir/source/game.cpp.obj: CMakeFiles/BlackJack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\edwar\Projects\BlackJack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BlackJack.dir/source/game.cpp.obj"
@@ -111,6 +114,7 @@ CMakeFiles/BlackJack.dir/source/game.cpp.s: cmake_force
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\edwar\Projects\BlackJack\source\game.cpp -o CMakeFiles\BlackJack.dir\source\game.cpp.s
 
 CMakeFiles/BlackJack.dir/source/person.cpp.obj: CMakeFiles/BlackJack.dir/flags.make
+CMakeFiles/BlackJack.dir/source/person.cpp.obj: CMakeFiles/BlackJack.dir/includes_CXX.rsp
 CMakeFiles/BlackJack.dir/source/person.cpp.obj: ../source/person.cpp
 CMakeFiles/BlackJack.dir/source/person.cpp.obj: CMakeFiles/BlackJack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\edwar\Projects\BlackJack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BlackJack.dir/source/person.cpp.obj"
@@ -125,6 +129,7 @@ CMakeFiles/BlackJack.dir/source/person.cpp.s: cmake_force
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\edwar\Projects\BlackJack\source\person.cpp -o CMakeFiles\BlackJack.dir\source\person.cpp.s
 
 CMakeFiles/BlackJack.dir/source/player.cpp.obj: CMakeFiles/BlackJack.dir/flags.make
+CMakeFiles/BlackJack.dir/source/player.cpp.obj: CMakeFiles/BlackJack.dir/includes_CXX.rsp
 CMakeFiles/BlackJack.dir/source/player.cpp.obj: ../source/player.cpp
 CMakeFiles/BlackJack.dir/source/player.cpp.obj: CMakeFiles/BlackJack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\edwar\Projects\BlackJack\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BlackJack.dir/source/player.cpp.obj"

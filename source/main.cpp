@@ -4,6 +4,9 @@
 #include "../include/card.hpp"
 #include "../include/game.hpp"
 #include <random>
+#include <range/v3/numeric/accumulate.hpp>
+#include <range/v3/view/transform.hpp>
+#include <range/v3/view/filter.hpp>
 
 int main(void) {
     auto dealer = blackJack::Dealer("Dealer");

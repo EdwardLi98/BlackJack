@@ -1,6 +1,9 @@
 #include "../include/dealer.hpp"
 
 void blackJack::Dealer::generateDeck() {
+    if (deck_.size() != 0) {
+        deck_.clear();
+    }
     std::unordered_map<int, std::string> suitValues = {{1, "Diamonds"}, {2, "Clubs"}, {3, "Hearts"}, {4, "Spades"}};
     for (auto value = 1; value <= 13; ++value) {
         for (auto suit = 1; suit <= 4; ++ suit) {
@@ -25,8 +28,12 @@ void blackJack::Dealer::deal(Person person) {
     //std::cout << "Dealer dealt a " << card.getValue() << " of " << card.getSuit() << " to " << person.getName() << std::endl;
 }
 
-void blackJack::Dealer::addCardToDeck(Card card) {
-    deck_.push_back(card);
+void blackJack::Dealer::setup() {
+    setStatus(Person::PlayerStatus::Playing);
+    generateDeck();
+    shuffleDeck();
+    auto hand = getHand();
+    hand->clear();
 }
 
 void blackJack::Dealer::showDeck() {

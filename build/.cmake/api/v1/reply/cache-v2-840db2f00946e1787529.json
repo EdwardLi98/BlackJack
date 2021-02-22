@@ -1358,6 +1358,18 @@
 			"value" : "C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/strip.exe"
 		},
 		{
+			"name" : "CMAKE_TOOLCHAIN_FILE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:\\Users\\edwar\\Projects\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake"
+		},
+		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
 			"properties" : 
 			[
@@ -1710,6 +1722,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "RANGE_V3",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "RANGE_V3-NOTFOUND"
+		},
+		{
 			"name" : "SITE",
 			"properties" : 
 			[
@@ -1740,6 +1764,30 @@
 			],
 			"type" : "UNINITIALIZED",
 			"value" : ""
+		},
+		{
+			"name" : "VCPKG_TARGET_TRIPLET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "STRING",
+			"value" : "x64-windows"
+		},
+		{
+			"name" : "range-v3_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for range-v3."
+				}
+			],
+			"type" : "PATH",
+			"value" : "range-v3_DIR-NOTFOUND"
 		}
 	],
 	"kind" : "cache",
