@@ -10,9 +10,10 @@ set_target_properties(range_v3 PROPERTIES
 
 add_executable(
     BlackJack 
-    source/main.cpp
+    source/card.cpp
     source/dealer.cpp
     source/game.cpp 
+    source/main.cpp
     source/person.cpp 
     source/player.cpp
     )
