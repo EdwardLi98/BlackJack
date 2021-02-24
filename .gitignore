@@ -32,3 +32,5 @@
 *.app
 
 range-v3/
+build/
+CMakeLists.txt
