@@ -11,6 +11,7 @@
 #include <functional>
 #include <range/v3/algorithm/for_each.hpp>
 #include <range/v3/action/remove_if.hpp>
+#include <stdlib.h>
 #include <unordered_map>
 
 namespace blackJack {
@@ -48,10 +49,8 @@ class Game {
         void addPlayer(std::string name);
         void removePlayer(std::string name); //TDOO
         void showPlayers();  //for debug purposes
-        void setActiveGame(bool active) { activeGame_ = active; };
         std::vector<Player> players_;
         Dealer dealer_;
-        bool activeGame_ = false; // True if a round is in progress and false if it has ended
 };
 }
 

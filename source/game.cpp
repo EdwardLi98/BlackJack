@@ -13,7 +13,6 @@ void blackJack::Game::initialiseGame() {
 void blackJack::Game::setupGame() {
     // Resets the status for both players and dealer
     // Resets hand and redeals
-    setActiveGame(true);
     dealer_.setup();
     std::cout << "=============== Starting Game ================" << "\n";
     ranges::for_each(players_, [this](Player &player) {
@@ -71,7 +70,6 @@ void blackJack::Game::runGame() {
     else {
         std::cout << "Dealer wins by deault!" << "\n";
     }
-    setActiveGame(false);
 }
 
 enum blackJack::Game::SystemCommand blackJack::Game::processSystemCommand(std::string input) {
@@ -110,9 +108,10 @@ void blackJack::Game::executeSystemCommand(std::string input) {
         }
         break;
     case SystemCommand::End:
+        exit(0);
         break;
     case SystemCommand::InvalidS:
-        std::cout << "Invalid command. Valid commands are: add [player], remove [player], end." << "\n";
+        std::cout << "Invalid command. Valid commands are: add [player], remove [player], play, end." << "\n";
         break;
     }
 }
@@ -191,7 +190,6 @@ void blackJack::Game::removePlayer(std::string name) {
         }
     };
     ranges::actions::remove_if(players_, rm);
-    std::cout << name << " has been removed from the game." << "\n";
 }
 
 void blackJack::Game::showPlayers() {
