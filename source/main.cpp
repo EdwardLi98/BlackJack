@@ -9,7 +9,6 @@
 #include <range/v3/view/filter.hpp>
 
 int main(void) {
-    auto dealer = blackJack::Dealer("Dealer");
-    auto game = blackJack::Game(dealer);
+    auto game = blackJack::Game();
     game.initialiseGame();
 }

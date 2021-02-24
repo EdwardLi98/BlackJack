@@ -10,13 +10,15 @@
 #include <unordered_map>
 #include <functional>
 #include <range/v3/algorithm/for_each.hpp>
-#include <any>
 
 namespace blackJack {
 
 class Game {
     public:
-        Game(Dealer dealer) : dealer_{dealer} {};
+        Game() {
+            auto dealer = blackJack::Dealer("Dealer"); 
+            dealer_ = dealer;
+        }
         void initialiseGame(); //Generate deck and add players
         void runGame(); //Plays game
     private:
@@ -35,7 +37,7 @@ class Game {
         };
         void setupGame();
         enum SystemCommand processSystemCommand(std::string input);
-        void executeSystemComamand(std::string input);
+        void executeSystemCommand(std::string input);
         enum PlayerCommand processPlayerCommand(std::string input); 
         void processTurn(Player& player); //TODO
         void checkHand(Person& person); //Return the total value of a players hand

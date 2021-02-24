@@ -24,6 +24,7 @@ class Person {
             Busted,
             BlackJack
         };
+        Person() : name_{"Default"}, hand_ (std::make_shared<std::vector<Card>>()) {};
         Person(std::string name) : name_{name}, hand_ (std::make_shared<std::vector<Card>>()) {};
         std::string getName() {return name_;}
         std::shared_ptr<std::vector<Card>> getHand() {return hand_;}

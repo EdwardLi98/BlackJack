@@ -1,17 +1,11 @@
 #include "../include/game.hpp"
 
 void blackJack::Game::initialiseGame() {
-    //Assign a dealer to the game
-    //std::cout << "Please enter player name: ";
-    //std::string name;
-    //std::cin >> name;
-    //addPlayer(name);
-    //std::cout << name << " has been added to the game." << std::endl;
-    //while (players_.size() > 0) {
-        //runGame();
-    //}
+    std::cout << "Welcome to Blackjack!" << std::endl;
+    std::string userPrompt = "What would you like to do?";
     std::string input;
-    while (std::cin >> input) {
+    while (std::cout << userPrompt << std::endl) {
+        std::cin >> input;
         executeSystemCommand(input);
     }
 }
@@ -88,12 +82,24 @@ enum blackJack::Game::SystemCommand blackJack::Game::processSystemCommand(std::s
     return SystemCommand::InvalidS;
 }
 
-void blackJack::Game::executeSystemComamand(std::string input) {
+void blackJack::Game::executeSystemCommand(std::string input) {
     auto command = processSystemCommand(input);
     switch (command) {
-        case SystemCommand::Add:
+        case SystemCommand::Add: {
+            std::string name;
+            std::cin >> name;
+            addPlayer(name);
             break;
+        }
         case SystemCommand::Remove:
+            break;
+        case SystemCommand::Play:
+            if (players_.size() != 0) {
+                runGame();
+            }
+            else {
+                std::cout << "Not enough players." << std::endl;
+            }
             break;
         case SystemCommand::End:
             break;
@@ -159,6 +165,7 @@ void blackJack::Game::checkHand(Person& person) {
 void blackJack::Game::addPlayer(std::string name) {
     auto player = Player(name);
     players_.push_back(player);
+    std::cout << name << " has been added to the game." << std::endl;
 }
 
 void blackJack::Game::showPlayers() {
