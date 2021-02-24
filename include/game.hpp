@@ -44,7 +44,7 @@ class Game {
         int activePlayers();              //Return the total number of players still able to process actions (those who haven't folded or busted)
         int standingPlayers();            //Return the total number of players that are standing
         void addPlayer(std::string name);
-        void removePlayer(); //TDOO
+        void removePlayer(std::string name); //TDOO
         void showPlayers();  //for debug purposes
         void setActiveGame(bool active) { activeGame_ = active; };
         std::vector<Player> players_;

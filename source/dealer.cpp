@@ -37,8 +37,8 @@ void blackJack::Dealer::setup() {
 }
 
 void blackJack::Dealer::showDeck() {
-    std::cout << "Dealer has the following cards in deck: " << std::endl;
+    std::cout << "Dealer has the following cards in deck: " << "\n";
     for (auto card : deck_) {
-        std::cout << "Card has value: " << card.getValue() << " and suit: " << card.getSuit() << std::endl;
+        std::cout << "Card has value: " << card.getValue() << " and suit: " << card.getSuit() << "\n";
     }
 }
