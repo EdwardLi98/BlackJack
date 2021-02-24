@@ -7,9 +7,11 @@
 #include "person.hpp"
 #include "player.hpp"
 #include "dealer.hpp"
-#include <unordered_map>
+#include <cstring>
 #include <functional>
 #include <range/v3/algorithm/for_each.hpp>
+#include <range/v3/action/remove_if.hpp>
+#include <unordered_map>
 
 namespace blackJack {
 

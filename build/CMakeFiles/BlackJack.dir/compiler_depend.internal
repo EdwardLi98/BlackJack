@@ -476,8 +476,19 @@ CMakeFiles/BlackJack.dir/source/game.cpp.obj
  C:/Program Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ctime
  C:/Program Files/MinGW/include/time.h
  C:/Program Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/parse_numbers.h
+ C:/Program Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cstring
+ C:/Program Files/MinGW/include/string.h
+ C:/Program Files/MinGW/include/strings.h
+ C:/Program Files/MinGW/include/wchar.h
  C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/algorithm/for_each.hpp
  C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/algorithm/result_types.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/action/remove_if.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/action/action.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/action/concepts.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/action/erase.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/action/insert.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/algorithm/remove_if.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/algorithm/find_if.hpp
 
 CMakeFiles/BlackJack.dir/source/main.cpp.obj
  C:/Users/edwar/Projects/BlackJack/source/main.cpp
@@ -720,8 +731,19 @@ CMakeFiles/BlackJack.dir/source/main.cpp.obj
  C:/Users/edwar/Projects/BlackJack/include/card.hpp
  C:/Users/edwar/Projects/BlackJack/include/game.hpp
  C:/Users/edwar/Projects/BlackJack/include/player.hpp
+ C:/Program Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cstring
+ C:/Program Files/MinGW/include/string.h
+ C:/Program Files/MinGW/include/strings.h
+ C:/Program Files/MinGW/include/wchar.h
  C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/algorithm/for_each.hpp
  C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/algorithm/result_types.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/action/remove_if.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/action/action.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/action/concepts.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/action/erase.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/action/insert.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/algorithm/remove_if.hpp
+ C:/Users/edwar/Projects/BlackJack/range-v3/include/range/v3/algorithm/find_if.hpp
 
 CMakeFiles/BlackJack.dir/source/person.cpp.obj
  C:/Users/edwar/Projects/BlackJack/source/person.cpp

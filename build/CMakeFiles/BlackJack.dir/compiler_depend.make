@@ -474,8 +474,19 @@ CMakeFiles/BlackJack.dir/source/game.cpp.obj: ../source/game.cpp \
   C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ctime \
   C:/Program\ Files/MinGW/include/time.h \
   C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/parse_numbers.h \
+  C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cstring \
+  C:/Program\ Files/MinGW/include/string.h \
+  C:/Program\ Files/MinGW/include/strings.h \
+  C:/Program\ Files/MinGW/include/wchar.h \
   ../range-v3/include/range/v3/algorithm/for_each.hpp \
-  ../range-v3/include/range/v3/algorithm/result_types.hpp
+  ../range-v3/include/range/v3/algorithm/result_types.hpp \
+  ../range-v3/include/range/v3/action/remove_if.hpp \
+  ../range-v3/include/range/v3/action/action.hpp \
+  ../range-v3/include/range/v3/action/concepts.hpp \
+  ../range-v3/include/range/v3/action/erase.hpp \
+  ../range-v3/include/range/v3/action/insert.hpp \
+  ../range-v3/include/range/v3/algorithm/remove_if.hpp \
+  ../range-v3/include/range/v3/algorithm/find_if.hpp
 
 CMakeFiles/BlackJack.dir/source/main.cpp.obj: ../source/main.cpp \
   C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iostream \
@@ -717,8 +728,19 @@ CMakeFiles/BlackJack.dir/source/main.cpp.obj: ../source/main.cpp \
   ../include/card.hpp \
   ../include/game.hpp \
   ../include/player.hpp \
+  C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cstring \
+  C:/Program\ Files/MinGW/include/string.h \
+  C:/Program\ Files/MinGW/include/strings.h \
+  C:/Program\ Files/MinGW/include/wchar.h \
   ../range-v3/include/range/v3/algorithm/for_each.hpp \
-  ../range-v3/include/range/v3/algorithm/result_types.hpp
+  ../range-v3/include/range/v3/algorithm/result_types.hpp \
+  ../range-v3/include/range/v3/action/remove_if.hpp \
+  ../range-v3/include/range/v3/action/action.hpp \
+  ../range-v3/include/range/v3/action/concepts.hpp \
+  ../range-v3/include/range/v3/action/erase.hpp \
+  ../range-v3/include/range/v3/action/insert.hpp \
+  ../range-v3/include/range/v3/algorithm/remove_if.hpp \
+  ../range-v3/include/range/v3/algorithm/find_if.hpp
 
 CMakeFiles/BlackJack.dir/source/person.cpp.obj: ../source/person.cpp \
   ../include/person.hpp \
@@ -1370,6 +1392,8 @@ C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/clocale:
 
 C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iosfwd:
 
+../range-v3/include/range/v3/algorithm/remove_if.hpp:
+
 C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cctype:
 
 C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc:
@@ -1452,6 +1476,8 @@ C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/utility:
 
 C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_relops.h:
 
+../range-v3/include/range/v3/action/concepts.hpp:
+
 C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/tuple:
 
 C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/array:
@@ -1501,6 +1527,8 @@ C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_bas
 ../include/player.hpp:
 
 C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h:
+
+../range-v3/include/range/v3/action/erase.hpp:
 
 C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.tcc:
 
@@ -1588,6 +1616,8 @@ C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/climits:
 
 ../range-v3/include/range/v3/utility/semiregular_box.hpp:
 
+../range-v3/include/range/v3/algorithm/find_if.hpp:
+
 ../range-v3/include/range/v3/view/ref.hpp:
 
 ../range-v3/include/range/v3/functional/reference_wrapper.hpp:
@@ -1648,10 +1678,22 @@ C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_heap.h:
 
 C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ratio:
 
+C:/Program\ Files/MinGW/include/strings.h:
+
 C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ctime:
 
 ../source/game.cpp:
 
+C:/Program\ Files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cstring:
+
+C:/Program\ Files/MinGW/include/string.h:
+
 ../range-v3/include/range/v3/algorithm/for_each.hpp:
 
 ../range-v3/include/range/v3/algorithm/result_types.hpp:
+
+../range-v3/include/range/v3/action/remove_if.hpp:
+
+../range-v3/include/range/v3/action/action.hpp:
+
+../range-v3/include/range/v3/action/insert.hpp:

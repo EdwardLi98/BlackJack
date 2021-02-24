@@ -34,7 +34,7 @@ void blackJack::Game::runGame() {
     while (activePlayers() > 0) {
         // Loop through turns
         ranges::for_each(players_, [this](Player &player) {
-            if (player.getStatus() == Person::PlayerStatus::Playing) {
+            while (player.getStatus() == Person::PlayerStatus::Playing) {
                 processTurn(player);
             }
         });
@@ -95,8 +95,12 @@ void blackJack::Game::executeSystemCommand(std::string input) {
         addPlayer(name);
         break;
     }
-    case SystemCommand::Remove:
+    case SystemCommand::Remove: {
+        std::string name;
+        std::cin >> name;
+        removePlayer(name);
         break;
+    }
     case SystemCommand::Play:
         if (players_.size() != 0) {
             runGame();
@@ -176,6 +180,17 @@ void blackJack::Game::addPlayer(std::string name) {
 }
 
 void blackJack::Game::removePlayer(std::string name) {
+    auto rm = [name](Player player) { 
+        auto playerName = player.getName();
+        if (std::strcmp(playerName.c_str(), name.c_str()) == 0) {
+            std::cout << name << " has been removed from the game." << "\n";
+            return true;
+        }
+        else {
+            return false;
+        }
+    };
+    ranges::actions::remove_if(players_, rm);
     std::cout << name << " has been removed from the game." << "\n";
 }
 
