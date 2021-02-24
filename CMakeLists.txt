@@ -8,12 +8,12 @@ add_library(range_v3 INTERFACE IMPORTED)
 set_target_properties(range_v3 PROPERTIES 
     INTERFACE_INCLUDE_DIRECTORIES C:/Users/edwar/Projects/BlackJack/range-v3/include)
 
-
 add_executable(
-    BlackJack
-    source/main.cpp
+    BlackJack 
+    source/card.cpp
     source/dealer.cpp
     source/game.cpp 
+    source/main.cpp
     source/person.cpp 
     source/player.cpp
     )

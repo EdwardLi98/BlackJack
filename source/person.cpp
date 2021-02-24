@@ -22,8 +22,8 @@ int blackJack::Person::sumHand() {
 }
 
 void blackJack::Person::showHand() {
-    std::cout << name_ << " has the following cards: " << std::endl;
+    std::cout << name_ << " has the following cards: " << "\n";
     for (auto card : *hand_) {
-        std::cout << card.getValue() << " of " << card.getSuit() << std::endl;
+        card.showCard();
     }
 }

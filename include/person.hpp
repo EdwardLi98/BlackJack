@@ -4,6 +4,10 @@
 #define BLACKJACK 21
 #define LARGE_ACE 11
 #define SMALL_ACE 1
+#define ACE 1
+#define JACK 11
+#define QUEEN 12
+#define KING 13
 
 #include "card.hpp"
 #include <cmath>
