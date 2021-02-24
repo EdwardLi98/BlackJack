@@ -2,19 +2,25 @@
 
 void blackJack::Game::initialiseGame() {
     //Assign a dealer to the game
-    std::cout << "Please enter player name: ";
-    std::string name;
-    std::cin >> name;
-    addPlayer(name);
-    std::cout << name << " has been added to the game." << std::endl;
-    while (players_.size() > 0) {
-        runGame();
+    //std::cout << "Please enter player name: ";
+    //std::string name;
+    //std::cin >> name;
+    //addPlayer(name);
+    //std::cout << name << " has been added to the game." << std::endl;
+    //while (players_.size() > 0) {
+        //runGame();
+    //}
+    std::string input;
+    while (std::cin >> input) {
+        executeSystemCommand(input);
     }
 }
 
 void blackJack::Game::setupGame() {
-    // Resets the status to playing for both players and dealer
+    // Resets the status for both players and dealer
     // Resets hand and redeals
+    setActiveGame(true);
+    dealer_.setup();
     std::cout << "=============== Starting Game ================" << std::endl;
     ranges::for_each(players_, [this](Player& player) {
         player.setStatus(Person::PlayerStatus::Playing);
@@ -32,12 +38,14 @@ void blackJack::Game::setupGame() {
 void blackJack::Game::runGame() {
     setupGame();
     while (activePlayers() > 0) {
+        // Loop through turns
         ranges::for_each(players_, [this](Player& player) {
             if (player.getStatus() == Person::PlayerStatus::Playing) {
                 processTurn(player);
             }
         });
     }
+    // Dealer needs to deal cards to themselves if there are players standing
     if (standingPlayers() > 0) {
         while (dealer_.sumHand() <= DEAL_LIMIT) {
             dealer_.deal(dealer_);
@@ -67,37 +75,60 @@ void blackJack::Game::runGame() {
         }
     }
     else {
-        std::cout << "Dealer wins by default!" << std::endl;
+        std::cout << "Dealer wins by deault!" << std::endl;
     }
-    std::cout << "End game" << std::endl;
+    setActiveGame(false);
+}
+
+enum blackJack::Game::SystemCommand blackJack::Game::processSystemCommand(std::string input) {
+    if (input == "add") return Add;
+    else if (input == "remove") return SystemCommand::Remove;
+    else if (input == "play") return SystemCommand::Play;
+    else if (input == "end") return SystemCommand::End;
+    return SystemCommand::InvalidS;
+}
+
+void blackJack::Game::executeSystemComamand(std::string input) {
+    auto command = processSystemCommand(input);
+    switch (command) {
+        case SystemCommand::Add:
+            break;
+        case SystemCommand::Remove:
+            break;
+        case SystemCommand::End:
+            break;
+        case SystemCommand::InvalidS:
+            std::cout << "Invalid command. Valid commands are: add [player], remove [player], end." << std::endl;
+            break;
+    }
+}
+
+enum blackJack::Game::PlayerCommand blackJack::Game::processPlayerCommand(std::string input) {
+    if (input == "hit") return PlayerCommand::Hit;
+    if (input == "hold") return PlayerCommand::Hold;
+    return PlayerCommand::InvalidP;
 }
 
 void blackJack::Game::processTurn(Player& player) {
     std::string input;
     std::cout << "What would " << player.getName() << " like to do?" << std::endl;
     std::cin >> input;
-    auto command = processCommand(input);
+    auto command = processPlayerCommand(input);
     switch (command) {
-        case Hit:
+        case PlayerCommand::Hit:
             //std::cout << player.getName() << " hits." << std::endl;
             player.hit(dealer_);
             player.showHand();
             checkHand(player);
             break;
-        case Hold:
+        case PlayerCommand::Hold:
             //std::cout << player.getName() << " holds." << std::endl;
             player.setStatus(Person::PlayerStatus::Standing);
             break;
-        case Invalid:
+        case PlayerCommand::InvalidP:
             std::cout << "Invalid command. Valid commands are: hit, hold, split." << std::endl;
             break;
     }
-}
-
-enum blackJack::Game::Command blackJack::Game::processCommand(std::string input) {
-    if (input == "hit") return Hit;
-    if (input == "hold") return Hold;
-    return Invalid;
 }
 
 int blackJack::Game::standingPlayers() {

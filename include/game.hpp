@@ -19,24 +19,35 @@ class Game {
         Game(Dealer dealer) : dealer_{dealer} {};
         void initialiseGame(); //Generate deck and add players
         void runGame(); //Plays game
-        void setupGame();
     private:
-        enum Command {
+        enum SystemCommand {
+            Add,
+            Remove,
+            Play,
+            End,
+            InvalidS
+        };
+        enum PlayerCommand {
             Hit,
             Hold,
             Split,
-            Invalid
+            InvalidP
         };
+        void setupGame();
+        enum SystemCommand processSystemCommand(std::string input);
+        void executeSystemComamand(std::string input);
+        enum PlayerCommand processPlayerCommand(std::string input); 
         void processTurn(Player& player); //TODO
-        enum Command processCommand(std::string input); 
         void checkHand(Person& person); //Return the total value of a players hand
         int activePlayers(); //Return the total number of players still able to process actions (those who haven't folded or busted)
         int standingPlayers(); //Return the total number of players that are standing
         void addPlayer(std::string name);
         void removePlayer(); //TDOO
         void showPlayers(); //for debug purposes
+        void setActiveGame(bool active) { activeGame_ = active; };
         std::vector<Player> players_;
         Dealer dealer_;
+        bool activeGame_ = false; // True if a round is in progress and false if it has ended
 };
 
 }
