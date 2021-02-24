@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\edwar\CMake\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\edwar\CMake\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -66,7 +66,7 @@ include CMakeFiles/NightlyBuild.dir/compiler_depend.make
 include CMakeFiles/NightlyBuild.dir/progress.make
 
 CMakeFiles/NightlyBuild:
-	C:\Users\edwar\CMake\bin\ctest.exe -D NightlyBuild
+	"C:\Program Files\CMake\bin\ctest.exe" -D NightlyBuild
 
 NightlyBuild: CMakeFiles/NightlyBuild
 NightlyBuild: CMakeFiles/NightlyBuild.dir/build.make

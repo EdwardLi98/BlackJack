@@ -11,26 +11,25 @@
 #include <functional>
 #include <range/v3/algorithm/for_each.hpp>
 
-namespace blackJack
-{
+namespace blackJack {
 
-    class Game
-    {
+class Game {
     public:
-        Game(Dealer dealer) : dealer_{dealer} {};
+        Game() {
+            auto dealer = blackJack::Dealer("Dealer");
+            dealer_ = dealer;
+        }
         void initialiseGame(); //Generate deck and add players
         void runGame();        //Plays game
     private:
-        enum SystemCommand
-        {
+        enum SystemCommand {
             Add,
             Remove,
             Play,
             End,
             InvalidS
         };
-        enum PlayerCommand
-        {
+        enum PlayerCommand {
             Hit,
             Hold,
             Split,
@@ -51,8 +50,7 @@ namespace blackJack
         std::vector<Player> players_;
         Dealer dealer_;
         bool activeGame_ = false; // True if a round is in progress and false if it has ended
-    };
-
+};
 }
 
 #endif //game_hpp

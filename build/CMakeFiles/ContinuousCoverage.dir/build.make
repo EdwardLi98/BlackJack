@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\edwar\CMake\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\edwar\CMake\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -66,7 +66,7 @@ include CMakeFiles/ContinuousCoverage.dir/compiler_depend.make
 include CMakeFiles/ContinuousCoverage.dir/progress.make
 
 CMakeFiles/ContinuousCoverage:
-	C:\Users\edwar\CMake\bin\ctest.exe -D ContinuousCoverage
+	"C:\Program Files\CMake\bin\ctest.exe" -D ContinuousCoverage
 
 ContinuousCoverage: CMakeFiles/ContinuousCoverage
 ContinuousCoverage: CMakeFiles/ContinuousCoverage.dir/build.make
