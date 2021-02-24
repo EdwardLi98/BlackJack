@@ -24,6 +24,20 @@ int blackJack::Person::sumHand() {
 void blackJack::Person::showHand() {
     std::cout << name_ << " has the following cards: " << "\n";
     for (auto card : *hand_) {
-        std::cout << card.getValue() << " of " << card.getSuit() << "\n";
+        if (card.getValue() == ACE) {
+            std::cout << "Ace of " << card.getSuit() << "\n";
+        }
+        else if (card.getValue() <= 10) {
+            std::cout << card.getValue() << " of " << card.getSuit() << "\n";
+        }
+        else if (card.getValue() == JACK) {
+            std::cout << "Jack of " << card.getSuit() << "\n";
+        }
+        else if (card.getValue() == QUEEN) {
+            std::cout << "Queen of " << card.getSuit() << "\n";
+        }
+        else if (card.getValue() == KING) {
+            std::cout << "King of " << card.getSuit() << "\n";
+        }
     }
 }
