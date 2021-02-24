@@ -22,19 +22,19 @@
 namespace blackJack {
 class Person {
     public:
+        Person() : name_{"Default"}, hand_ (std::make_shared<std::vector<Card>>()) {};
+        Person(std::string name) : name_{name}, hand_ (std::make_shared<std::vector<Card>>()) {};
         enum PlayerStatus {
             Playing,
             Standing,
             Busted,
             BlackJack
         };
-        Person() : name_{"Default"}, hand_ (std::make_shared<std::vector<Card>>()) {};
-        Person(std::string name) : name_{name}, hand_ (std::make_shared<std::vector<Card>>()) {};
-        std::string getName() {return name_;}
-        std::shared_ptr<std::vector<Card>> getHand() {return hand_;}
-        int sumHand();
-        void showHand();
-        PlayerStatus getStatus() { return status_ ;};
+        std::string getName() const {return name_;}
+        std::shared_ptr<std::vector<Card>> getHand() const {return hand_;}
+        int sumHand() const;
+        void showHand() const;
+        PlayerStatus getStatus() const { return status_ ;};
         void setStatus(PlayerStatus status) { status_ = status;};
     private:
         std::string name_; 

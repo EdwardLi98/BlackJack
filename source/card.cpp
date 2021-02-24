@@ -1,6 +1,6 @@
 #include "../include/card.hpp"
 
-void blackJack::Card::showCard() {
+void blackJack::Card::showCard() const {
     if (getValue() == ACE) {
         std::cout << "Ace of " << getSuit() << "\n";
     }

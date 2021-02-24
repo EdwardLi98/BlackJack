@@ -72,7 +72,7 @@ void blackJack::Game::runGame() {
     }
 }
 
-enum blackJack::Game::SystemCommand blackJack::Game::processSystemCommand(std::string input) {
+enum blackJack::Game::SystemCommand blackJack::Game::processSystemCommand(const std::string input) const {
     if (input == "add")
         return Add;
     else if (input == "remove")
@@ -84,7 +84,7 @@ enum blackJack::Game::SystemCommand blackJack::Game::processSystemCommand(std::s
     return SystemCommand::InvalidS;
 }
 
-void blackJack::Game::executeSystemCommand(std::string input) {
+void blackJack::Game::executeSystemCommand(const std::string input) {
     auto command = processSystemCommand(input);
     switch (command) {
     case SystemCommand::Add: {
@@ -116,7 +116,7 @@ void blackJack::Game::executeSystemCommand(std::string input) {
     }
 }
 
-enum blackJack::Game::PlayerCommand blackJack::Game::processPlayerCommand(std::string input) {
+enum blackJack::Game::PlayerCommand blackJack::Game::processPlayerCommand(const std::string input) const {
     if (input == "hit")
         return PlayerCommand::Hit;
     if (input == "hold")
@@ -132,7 +132,7 @@ void blackJack::Game::processTurn(Player &player) {
     switch (command) {
     case PlayerCommand::Hit:
         //std::cout << player.getName() << " hits." << "\n";
-        player.hit(dealer_);
+        dealer_.deal(player);
         player.showHand();
         checkHand(player);
         break;
@@ -144,20 +144,6 @@ void blackJack::Game::processTurn(Player &player) {
         std::cout << "Invalid command. Valid commands are: hit, hold, split." << "\n";
         break;
     }
-}
-
-int blackJack::Game::standingPlayers() {
-    auto num = ranges::accumulate(players_ 
-             | ranges::view::transform([](Player player) { return player.getStatus() == Person::PlayerStatus::Standing ? 1 : 0; }),
-                                  0);
-    return num;
-}
-
-int blackJack::Game::activePlayers() {
-    auto num = ranges::accumulate(players_ 
-             | ranges::view::transform([](Player player) { return player.getStatus() == Person::PlayerStatus::Playing ? 1 : 0; }),
-                                  0);
-    return num;
 }
 
 void blackJack::Game::checkHand(Person &person) {
@@ -172,13 +158,32 @@ void blackJack::Game::checkHand(Person &person) {
     }
 }
 
-void blackJack::Game::addPlayer(std::string name) {
-    auto player = Player(name);
-    players_.push_back(player);
-    std::cout << name << " has been added to the game." << "\n";
+int blackJack::Game::standingPlayers() const {
+    auto num = ranges::accumulate(players_ 
+             | ranges::view::transform([](Player player) { return player.getStatus() == Person::PlayerStatus::Standing ? 1 : 0; }),
+                                  0);
+    return num;
 }
 
-void blackJack::Game::removePlayer(std::string name) {
+int blackJack::Game::activePlayers() const {
+    auto num = ranges::accumulate(players_ 
+             | ranges::view::transform([](Player player) { return player.getStatus() == Person::PlayerStatus::Playing ? 1 : 0; }),
+                                  0);
+    return num;
+}
+
+void blackJack::Game::addPlayer(const std::string name) {
+    if (players_.size() < 7) {
+        auto player = Player(name);
+        players_.push_back(player);
+        std::cout << name << " has been added to the game." << "\n";
+    }
+    else {
+        std::cout << "Player limit has been reached." << "\n";
+    }
+}
+
+void blackJack::Game::removePlayer(const std::string name) {
     auto rm = [name](Player player) { 
         auto playerName = player.getName();
         if (std::strcmp(playerName.c_str(), name.c_str()) == 0) {
@@ -192,13 +197,7 @@ void blackJack::Game::removePlayer(std::string name) {
     ranges::actions::remove_if(players_, rm);
 }
 
-void blackJack::Game::addPlayer(std::string name) {
-    auto player = Player(name);
-    players_.push_back(player);
-    std::cout << name << " has been added to the game." << std::endl;
-}
-
-void blackJack::Game::showPlayers() {
+void blackJack::Game::showPlayers() const {
     std::cout << "Dealer for this game is: " << dealer_.getName() << "\n";
     std::cout << "Players in the game are: " << "\n";
     for (auto player : players_) {

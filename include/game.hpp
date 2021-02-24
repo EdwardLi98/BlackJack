@@ -39,16 +39,16 @@ class Game {
             InvalidP
         };
         void setupGame();
-        enum SystemCommand processSystemCommand(std::string input);
-        void executeSystemCommand(std::string input);
-        enum PlayerCommand processPlayerCommand(std::string input);
+        enum SystemCommand processSystemCommand(const std::string input) const;
+        void executeSystemCommand(const std::string input);
+        enum PlayerCommand processPlayerCommand(const std::string input) const;
         void processTurn(Player &player); //TODO
         void checkHand(Person &person);   //Return the total value of a players hand
-        int activePlayers();              //Return the total number of players still able to process actions (those who haven't folded or busted)
-        int standingPlayers();            //Return the total number of players that are standing
-        void addPlayer(std::string name);
-        void removePlayer(std::string name); //TDOO
-        void showPlayers();  //for debug purposes
+        int activePlayers() const;              //Return the total number of players still able to process actions (those who haven't folded or busted)
+        int standingPlayers() const;            //Return the total number of players that are standing
+        void addPlayer(const std::string name);
+        void removePlayer(const std::string name); //TDOO
+        void showPlayers() const;  //for debug purposes
         std::vector<Player> players_;
         Dealer dealer_;
 };
