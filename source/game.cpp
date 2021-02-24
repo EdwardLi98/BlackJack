@@ -168,6 +168,12 @@ void blackJack::Game::addPlayer(std::string name) {
     std::cout << name << " has been added to the game." << std::endl;
 }
 
+void blackJack::Game::addPlayer(std::string name) {
+    auto player = Player(name);
+    players_.push_back(player);
+    std::cout << name << " has been added to the game." << std::endl;
+}
+
 void blackJack::Game::showPlayers() {
     std::cout << "Dealer for this game is: " << dealer_.getName() << std::endl;
     std::cout << "Players in the game are: " << std::endl;
