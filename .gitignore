@@ -32,6 +32,6 @@
 *.app
 
 /range-v3
-/build
+build/
 CMakeLists.txt
 .vscode

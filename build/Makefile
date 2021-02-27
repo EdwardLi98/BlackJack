@@ -522,6 +522,30 @@ BlackJack/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/build
 .PHONY : BlackJack/fast
 
+source/card.obj: source/card.cpp.obj
+.PHONY : source/card.obj
+
+# target to build an object file
+source/card.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/source/card.cpp.obj
+.PHONY : source/card.cpp.obj
+
+source/card.i: source/card.cpp.i
+.PHONY : source/card.i
+
+# target to preprocess a source file
+source/card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/source/card.cpp.i
+.PHONY : source/card.cpp.i
+
+source/card.s: source/card.cpp.s
+.PHONY : source/card.s
+
+# target to generate assembly for a file
+source/card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/source/card.cpp.s
+.PHONY : source/card.cpp.s
+
 source/dealer.obj: source/dealer.cpp.obj
 .PHONY : source/dealer.obj
 
@@ -682,6 +706,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... BlackJack
+	@echo ... source/card.obj
+	@echo ... source/card.i
+	@echo ... source/card.s
 	@echo ... source/dealer.obj
 	@echo ... source/dealer.i
 	@echo ... source/dealer.s

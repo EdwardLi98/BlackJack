@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/edwar/Projects/BlackJack/source/card.cpp" "CMakeFiles/BlackJack.dir/source/card.cpp.obj" "gcc" "CMakeFiles/BlackJack.dir/source/card.cpp.obj.d"
   "C:/Users/edwar/Projects/BlackJack/source/dealer.cpp" "CMakeFiles/BlackJack.dir/source/dealer.cpp.obj" "gcc" "CMakeFiles/BlackJack.dir/source/dealer.cpp.obj.d"
   "C:/Users/edwar/Projects/BlackJack/source/game.cpp" "CMakeFiles/BlackJack.dir/source/game.cpp.obj" "gcc" "CMakeFiles/BlackJack.dir/source/game.cpp.obj.d"
   "C:/Users/edwar/Projects/BlackJack/source/main.cpp" "CMakeFiles/BlackJack.dir/source/main.cpp.obj" "gcc" "CMakeFiles/BlackJack.dir/source/main.cpp.obj.d"

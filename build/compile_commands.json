@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/Users/edwar/Projects/BlackJack/build",
-  "command": "C:\\PROGRA~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/BlackJack.dir/includes_CXX.rsp -g -o CMakeFiles\\BlackJack.dir\\source\\main.cpp.obj -c C:\\Users\\edwar\\Projects\\BlackJack\\source\\main.cpp",
-  "file": "C:/Users/edwar/Projects/BlackJack/source/main.cpp"
+  "command": "C:\\PROGRA~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/BlackJack.dir/includes_CXX.rsp -g -o CMakeFiles\\BlackJack.dir\\source\\card.cpp.obj -c C:\\Users\\edwar\\Projects\\BlackJack\\source\\card.cpp",
+  "file": "C:/Users/edwar/Projects/BlackJack/source/card.cpp"
 },
 {
   "directory": "C:/Users/edwar/Projects/BlackJack/build",
@@ -13,6 +13,11 @@
   "directory": "C:/Users/edwar/Projects/BlackJack/build",
   "command": "C:\\PROGRA~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/BlackJack.dir/includes_CXX.rsp -g -o CMakeFiles\\BlackJack.dir\\source\\game.cpp.obj -c C:\\Users\\edwar\\Projects\\BlackJack\\source\\game.cpp",
   "file": "C:/Users/edwar/Projects/BlackJack/source/game.cpp"
+},
+{
+  "directory": "C:/Users/edwar/Projects/BlackJack/build",
+  "command": "C:\\PROGRA~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/BlackJack.dir/includes_CXX.rsp -g -o CMakeFiles\\BlackJack.dir\\source\\main.cpp.obj -c C:\\Users\\edwar\\Projects\\BlackJack\\source\\main.cpp",
+  "file": "C:/Users/edwar/Projects/BlackJack/source/main.cpp"
 },
 {
   "directory": "C:/Users/edwar/Projects/BlackJack/build",
