@@ -16,9 +16,9 @@ class Dealer : public Person {
         using Person::Person;
         void generateDeck();
         void shuffleDeck(); 
-        void deal(Person);
+        void deal(Person& person);
         void setup(); //Run at the start of every round to reset dealer state
-        void showDeck(); // For debug purposes
+        void showDeck() const; // For debug purposes
 
     private:
         std::vector<Card> deck_;

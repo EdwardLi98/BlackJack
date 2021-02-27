@@ -20,7 +20,7 @@ void blackJack::Dealer::shuffleDeck() {
     std::shuffle(std::begin(deck_), std::end(deck_), rng);
 }
 
-void blackJack::Dealer::deal(Person person) {
+void blackJack::Dealer::deal(Person& person) {
     auto card = deck_.back();
     auto hand = person.getHand();
     hand->push_back(card);
@@ -36,7 +36,7 @@ void blackJack::Dealer::setup() {
     hand->clear();
 }
 
-void blackJack::Dealer::showDeck() {
+void blackJack::Dealer::showDeck() const {
     std::cout << "Dealer has the following cards in deck: " << "\n";
     for (auto card : deck_) {
         std::cout << "Card has value: " << card.getValue() << " and suit: " << card.getSuit() << "\n";

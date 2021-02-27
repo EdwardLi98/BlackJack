@@ -1,6 +1,6 @@
 #include "../include/person.hpp"
 
-int blackJack::Person::sumHand() {
+int blackJack::Person::sumHand() const {
     // Remove all ace values from hand and sum them
     auto sumWithoutAces = ranges::accumulate(*hand_ | ranges::views::transform([](Card card) { return card.getValue() <= 10 ? card.getValue() : 10; }) 
                                                     | ranges::views::filter([](int value) { return value != 1;}), 0);
@@ -21,7 +21,7 @@ int blackJack::Person::sumHand() {
     }
 }
 
-void blackJack::Person::showHand() {
+void blackJack::Person::showHand() const {
     std::cout << name_ << " has the following cards: " << "\n";
     for (auto card : *hand_) {
         card.showCard();

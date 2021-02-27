@@ -16,9 +16,9 @@ namespace blackJack {
 class Card {
     public:
         Card(int value, std::string suit) : value_(value), suit_(suit) {} 
-        int getValue() {return value_;}
-        std::string getSuit() {return suit_;}
-        void showCard();
+        int getValue() const {return value_;}
+        std::string getSuit() const {return suit_;}
+        void showCard() const;
     private:
         int value_;
         std::string suit_;

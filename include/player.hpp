@@ -11,7 +11,6 @@ namespace blackJack {
 class Player : public Person {
     public:
         using Person::Person;
-        void hit(Dealer &dealer); //TODO
         void doubleBet(); //TODO
         void split(); //TODO
     private:
