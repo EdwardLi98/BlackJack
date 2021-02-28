@@ -15,6 +15,7 @@ add_executable(
     source/game.cpp 
     source/main.cpp
     source/person.cpp 
+    source/player.cpp
     )
 
 target_link_libraries(BlackJack PUBLIC range_v3)

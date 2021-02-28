@@ -20,20 +20,21 @@ void blackJack::Dealer::shuffleDeck() {
     std::shuffle(std::begin(deck_), std::end(deck_), rng);
 }
 
-void blackJack::Dealer::deal(Person& person) {
+void blackJack::Dealer::deal(std::shared_ptr<std::vector<Card>> hand) {
     auto card = deck_.back();
-    auto hand = person.getHand();
     hand->push_back(card);
     deck_.pop_back();
     //std::cout << "Dealer dealt a " << card.getValue() << " of " << card.getSuit() << " to " << person.getName() << std::endl;
 }
 
 void blackJack::Dealer::setup() {
-    setStatus(Person::PlayerStatus::Playing);
+    setStatus(Person::HandStatus::Playing);
     generateDeck();
     shuffleDeck();
     auto hand = getHand();
     hand->clear();
+    deal(hand);
+    showHand();
 }
 
 void blackJack::Dealer::showDeck() const {

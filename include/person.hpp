@@ -14,32 +14,28 @@
 #include <vector>
 #include <iostream>
 #include <memory>
-#include <range/v3/algorithm/count.hpp>
-#include <range/v3/numeric/accumulate.hpp>
-#include <range/v3/view/transform.hpp>
-#include <range/v3/view/filter.hpp>
 
 namespace blackJack {
 class Person {
     public:
-        Person() : name_{"Default"}, hand_ (std::make_shared<std::vector<Card>>()) {};
+        Person() : name_{"Default"}, hand_ {std::make_shared<std::vector<Card>>()} {};
         Person(std::string name) : name_{name}, hand_ (std::make_shared<std::vector<Card>>()) {};
-        enum PlayerStatus {
+        enum HandStatus {
             Playing,
             Standing,
             Busted,
-            BlackJack
+            BlackJack,
+            Inactive
         };
         std::string getName() const {return name_;}
         std::shared_ptr<std::vector<Card>> getHand() const {return hand_;}
-        int sumHand() const;
         void showHand() const;
-        PlayerStatus getStatus() const { return status_ ;};
-        void setStatus(PlayerStatus status) { status_ = status;};
+        HandStatus getStatus() const { return status_ ;};
+        void setStatus(HandStatus status) { status_ = status;};
     private:
         std::string name_; 
         std::shared_ptr<std::vector<Card>> hand_;
-        PlayerStatus status_;
+        HandStatus status_;
 };
 }
 
