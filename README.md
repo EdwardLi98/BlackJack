@@ -2,7 +2,7 @@
 
 Console-based card game that is run in terminal, coded in C++ and using the ranges v3 library.
 
-How to play
+<ins>How to play</ins>
 
 When prompted by the game, the user is able to issue commands by typing into the console. Valid commands are:
  - add [playername] : Adds a player to the game (the game can have a maximum of 7 players)
